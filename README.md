@@ -1,6 +1,6 @@
 # INFO30005-Web-Information-Technologies-Project
 
-## Team Name: 
+### Team Name: 
 EZPark
 
 ## Team Member:
