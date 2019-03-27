@@ -4,11 +4,15 @@
 EZPark
 
 ## Team Member:
-Lachlan Scholes
-Yinglan Huang
-Yu Min Oung
-Dongwei Wei
-Ziyi Li
+Lachlan Scholes <br>
+Yinglan Huang <br>
+Yu Min Oung <br>
+Dongwei Wei <br>
+Ziyi Li <br>
 
 ## Project Description:
 This is a web application to help drivers to find available street parking slot in Melbourne CBD.
+
+## Initial Setup
+1. git clone https://github.com/yuminoung/EZPark.git
+2. npm install
