@@ -14,5 +14,7 @@ Ziyi Li <br>
 This is a web application to help drivers to find available street parking slot in Melbourne CBD.
 
 ## Initial Setup
-1. git clone https://github.com/yuminoung/EZPark.git
-2. npm install
+```
+git clone https://github.com/yuminoung/EZPark.git
+npm install
+```
