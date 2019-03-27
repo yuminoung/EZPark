@@ -14,7 +14,7 @@ Ziyi Li <br>
 This is a web application to help drivers to find available street parking slot in Melbourne CBD.
 
 ## Initial Setup
-to setup the project in your local machine the first time.
+to setup the project in your local machine for the first time.
 ```
 git clone https://github.com/yuminoung/EZPark.git
 npm install
@@ -29,7 +29,16 @@ npm install
 
 ## To upload changes
 ```
-git add your_file_name or git add .
+git add your_file_name 
+//OR 
+git add .
+
+
 git commit -m 'your message'
 git push
 ```
+
+## To delete files
+If you want to delete a file, talk to the group
+
+## Enjoy learning :)
