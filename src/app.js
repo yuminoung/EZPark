@@ -1,9 +1,18 @@
-const express = require('express')
-const app = express()
+//Set up express
+var express = require('express');
+var app = express();
+var bodyParser = require('body-parser');
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
+// Database setup
+require('./models/db.js');
 
-app.get('/', (req, res) => res.send('Hello'))
+// Routes setup
+var routes = require('./routes/routes.js');
+app.use('/',routes);
 
-PORT = process.env.PORT || 3000
-
-app.listen(PORT, () => 'Listening...')
+// Start the server
+app.listen(3000,function(req,res){
+    console.log('Express listening on port 3000');
+});
