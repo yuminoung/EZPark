@@ -1,29 +1,18 @@
-const express = require('express')
-const app = express()
-const fetch = require('node-fetch')
+//Set up express
+var express = require('express');
+var app = express();
+var bodyParser = require('body-parser');
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
-// const controller = require(controller)
+// Database setup
+require('./models/db.js');
 
-const apiUrl = 'https://data.melbourne.vic.gov.au/resource/dtpv-d4pf.json'
+// Routes setup
+var routes = require('./routes/routes.js');
+app.use('/',routes);
 
-
-app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/src/index.html')
-    // fetch(apiUrl).then(res => res.json()).then(json => res.send(json)).catch(err => console.log(err))
-})
-
-// app.get('/hello', controller.getHello)
-
-
-// app.get('/result', (req, res) => {
-//     res.sendFile(__dirname + '/src/result.html')
-
-// })
-
-// app.use('/')
-
-PORT = process.env.PORT || 3000
-
-app.listen(PORT, () => 'Listening...')
-
-//https://data.melbourne.vic.gov.au/resource/dtpv-d4pf.json
+// Start the server
+app.listen(3000,function(req,res){
+    console.log('Express listening on port 3000');
+});
