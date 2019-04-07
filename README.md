@@ -4,6 +4,11 @@
 ### Project Live URL:
 https://ezpark-project.herokuapp.com/
 
+
+### Data We Use:
+https://data.melbourne.vic.gov.au/Transport-Movement/On-street-Parking-Bay-Sensors/vh2v-4nfs <br>
+We use the data provided from MelbourneData, this is a realtime data updated every 2 minutes.
+
 ### Team Name: 
 EZPark
 
@@ -17,21 +22,21 @@ Ziyi Li <br>
 ### Project Description:
 This is a web application to help drivers to find available street parking slot in Melbourne CBD.
 
-### Initial Setup
+### Initial Setup:
 to setup the project in your local machine for the first time.
 ```
 git clone https://github.com/yuminoung/EZPark.git
 npm install
 ```
 
-### Before you code
+### Before you code:
 run git pull to make sure you have the latest version of the project.
 ```
 git pull
 npm install
 ```
 
-### To upload changes
+### To upload changes:
 ```
 git add your_file_name 
 //OR 
@@ -42,7 +47,7 @@ git commit -m 'your message'
 git push
 ```
 
-### How to run project in local machine
+### How to run project in local machine:
 After pulling or cloning, run these commands
 ```
 //Step 1: install all required dependencies, this command will create node_modules folder
