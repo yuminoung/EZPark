@@ -1,0 +1,26 @@
+{
+  "name": "ezpark",
+  "version": "1.0.0",
+  "description": "Web application to help drivers to find street car park in Melbourne CBD",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuminoung/EZPark.git"
+  },
+  "author": "EZPark Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuminoung/EZPark/issues"
+  },
+  "homepage": "https://github.com/yuminoung/EZPark#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
