@@ -38,7 +38,18 @@ git commit -m 'your message'
 git push
 ```
 
-### To delete files
-If you want to delete a file, talk to the group
+### How to run project in local machine
+After pulling or cloning, run these commands
+```
+//Step 1: install all required dependencies, this command will create node_modules folder
+npm install
 
-### Enjoy learning :)
+//Step 2: run npm run dev, this is a script i added to package.json, this script will run nodemon app.js
+npm run dev
+
+//step 3: go to http://localhost:3000/ to view the applcation.
+
+```
+
+
+### Enjoy coding :)
