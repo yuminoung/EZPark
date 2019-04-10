@@ -1,11 +1,11 @@
-// var mongoose = require('mongoose');
-// var Parking = mongoose.model('parkings');
+
 const fetch = require('node-fetch')
 const path = require('path')
 
+
+
 var index = function (req, res) {
-    // res.sendFile(__dirname + '/../src/index.html')
-    res.sendFile(path.join(__dirname, '../src/index.html'))
+    res.sendFile('index.html')
 }
 
 
