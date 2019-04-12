@@ -1,25 +1,51 @@
 <!DOCTYPE html>
-
 <html>
 
-
 <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ezpark</title>
 
+    <!-- this is a css framework, bulma.io-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+    <!-- this is the font i use for our ezpark logo-->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+    <style>
+        .title {
+            font-family: 'Lobster', cursive;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="container">
-        <h1>Ezpark</h1>
+    <section class="section">
+        <div class="container">
 
-        <div class="row">
-            <input type="text" class="form-control">
-        </div>
+            <h1 class="title has-text-centered">
+                EzPark
+            </h1>
 
-        <div class="row">
-            <ul></ul>
+            <div class="columns is-centered">
+                <div class="column is-half">
+                    <div class="field has-addons">
+                        <div class="control is-expanded">
+                            <input class="input is-medium" type="text" placeholder="Search carpark">
+                        </div>
+                        <div class="control">
+                            <span class="button is-medium">
+                                <i class="fas fa-search"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
-    </div>
+    </section>
 </body>
 
 </html>

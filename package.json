@@ -20,6 +20,7 @@
   "homepage": "https://github.com/yuminoung/EZPark#readme",
   "dependencies": {
     "express": "^4.16.4",
+    "mongoose": "^5.5.1",
     "node-fetch": "^2.3.0"
   },
   "devDependencies": {

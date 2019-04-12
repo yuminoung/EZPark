@@ -1,14 +1,18 @@
 var express = require('express')
 var router = express.Router()
 
-var controller = require('../controller/controller.js')
+var carpark = require('../controllers/carpark.js')
 
-router.get('/', controller.index)
 
-//show all available street parking in melbourne CBD
-router.get('/parkings', controller.findAllParkings)
+// //show all available street parking in melbourne CBD
+// router.get('/carpark', controller.findAllParkings)
 
-//get one parking location by id
-router.get('/parking/:id', controller.findOneParking)
+// //get one parking location by bay id
+// router.get('/carpark/:id', controller.findOneParking)
+
+router.get('/carpark', carpark.index)
+router.get('/carpark/:id', carpark.show)
+
+
 
 module.exports = router

@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var parkSchema = mongoose.Schema(
+var carparkSchema = mongoose.Schema(
     {
         "bay_id": Number,
         "status": String,
@@ -8,4 +8,4 @@ var parkSchema = mongoose.Schema(
         "distance": Number
     }
 );
-mongoose.model('park',parkSchema);
+mongoose.model('carpark', carparkSchema);
