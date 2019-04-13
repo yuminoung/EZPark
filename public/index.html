@@ -12,10 +12,24 @@
 
     <!-- this is the font i use for our ezpark logo-->
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 
     <style>
         .title {
             font-family: 'Lobster', cursive;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            font-family: 'Merriweather', serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul li {
+            font-size: 0.8rem;
+            font-family: 'Merriweather', serif;
+
         }
     </style>
 </head>
@@ -28,8 +42,8 @@
                 EzPark
             </h1>
 
-            <div class="columns is-centered">
-                <div class="column is-half">
+            <div class="columns">
+                <div class="column is-offset-one-quarter is-half">
                     <div class="field has-addons">
                         <div class="control is-expanded">
                             <input class="input is-medium" type="text" placeholder="Search carpark">
@@ -42,10 +56,30 @@
                     </div>
                 </div>
             </div>
-
+            <div class="columns">
+                <div class="column is-offset-one-quarter is-1">
+                    Routes:
+                </div>
+                <div class="column is-5">
+                    <a href="/carpark">carparks</a>
+                    <a href="/carpark/6017">carparks/bayid</a>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column is-offset-one-quarter">
+                    <h3>Recent Search . . .</h3>
+                    <ul>
+                        <li>Melbourne Central</li>
+                        <li>Unimelb</li>
+                        <li>Lygon St</li>
+                    </ul>
+                </div>
+            </div>
 
         </div>
     </section>
+
+
 </body>
 
 </html>

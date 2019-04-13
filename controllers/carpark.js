@@ -1,7 +1,7 @@
 const fetch = require('node-fetch')
 
 
-let api_url = 'https://data.melbourne.vic.gov.au/resource/dtpv-d4pf.json?bay_id='
+let api_url = 'https://data.melbourne.vic.gov.au/resource/dtpv-d4pf.json'
 
 
 //show all the street parking locations
@@ -12,7 +12,7 @@ var index = function (req, res) {
 
 //show a single street parking location
 var show = function (req, res) {
-    let parking_by_id = api_url + + req.params.id
+    let parking_by_id = api_url + '?bay_id=' + req.params.id
     fetch(parking_by_id).then(res => res.json()).then(json => res.send(json)).catch(err => console.log(err))
 }
 
