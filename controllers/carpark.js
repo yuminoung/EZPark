@@ -1,7 +1,7 @@
+// Carpark Controller
+
 const fetch = require('node-fetch')
-
-
-let api_url = 'https://data.melbourne.vic.gov.au/resource/dtpv-d4pf.json'
+const api_url = 'https://data.melbourne.vic.gov.au/resource/dtpv-d4pf.json'
 
 
 //show all the street parking locations

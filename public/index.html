@@ -9,26 +9,19 @@
     <!-- this is a css framework, bulma.io-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-
     <!-- this is the font i use for our ezpark logo-->
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <!-- monospace font, width of every characters are the same-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 
     <style>
         .title {
             font-family: 'Lobster', cursive;
         }
 
-        h3 {
-            font-size: 1.5rem;
-            font-family: 'Merriweather', serif;
+        body {
+            font-family: 'Roboto Mono', monospace;
         }
-
-        /* ul li {
-            font-size: 0.8rem;
-            font-family: 'Merriweather', serif;
-
-        } */
     </style>
 </head>
 
@@ -42,16 +35,20 @@
 
             <div class="columns">
                 <div class="column is-offset-one-quarter is-half">
-                    <div class="field has-addons">
-                        <div class="control is-expanded">
-                            <input class="input is-medium" type="text" placeholder="Search carpark">
+                    <form action="/search" method="POST">
+
+                        <div class="field has-addons">
+                            <div class="control is-expanded">
+                                <input class="input is-medium" name="search" type="text" placeholder="Search carpark">
+                            </div>
+                            <div class="control">
+                                <button class="button is-medium">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
                         </div>
-                        <div class="control">
-                            <span class="button is-medium">
-                                <i class="fas fa-search"></i>
-                            </span>
-                        </div>
-                    </div>
+
+                    </form>
                 </div>
             </div>
 
@@ -61,7 +58,7 @@
 
                     <article class="message is-small">
                         <div class="message-header">
-                            Recent search...
+                            Recent search (todo: use pug to render html to show recent searches)
                         </div>
                         <div class="message-body">
                             <ul>
@@ -82,8 +79,16 @@
                         </div>
                         <div class="message-body">
                             <ul>
-                                <li>GET /carpark</li>
-                                <li>GET /carpark/bay_id</li>
+                                <li><strong>Home</strong></li>
+                                <li>&nbsp;&nbsp;GET &nbsp;<a href="/">/</a></li>
+                                <li>&nbsp;</li>
+                                <li><strong>Carpark</strong></li>
+                                <li>&nbsp;&nbsp;GET &nbsp;<a href="/carpark">/carpark</a></li>
+                                <li>&nbsp;&nbsp;GET &nbsp;<a href="/carpark/5583">/carpark/id</a></li>
+                                <li>&nbsp;</li>
+                                <li><strong>Search</strong></li>
+                                <li>&nbsp;&nbsp;GET &nbsp;<a href="/search">/search</a></li>
+                                <li>&nbsp;&nbsp;POST <a href="#">/search</a></li>
                             </ul>
                         </div>
                     </article>
