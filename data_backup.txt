@@ -1,0 +1,6123 @@
+// backup the data we use,just in case we can't access to the api
+[
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6017",
+        "lat": "-37.82057355422346",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.949260602868,
+                -37.820573554223
+            ]
+        },
+        "lon": "144.94926060286815",
+        "st_marker_id": "13033S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6082",
+        "lat": "-37.81944163212577",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.94547769472,
+                -37.819441632126
+            ]
+        },
+        "lon": "144.94547769471956",
+        "st_marker_id": "13229S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6083",
+        "lat": "-37.81946010123319",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945413967955,
+                -37.819460101233
+            ]
+        },
+        "lon": "144.9454139679546",
+        "st_marker_id": "13231S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6180",
+        "lat": "-37.81968820991359",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943994843724,
+                -37.819688209914
+            ]
+        },
+        "lon": "144.9439948437243",
+        "st_marker_id": "13250N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "5583",
+        "lat": "-37.80926647423363",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.973976735272,
+                -37.809266474234
+            ]
+        },
+        "lon": "144.97397673527217",
+        "st_marker_id": "12200N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "5588",
+        "lat": "-37.80930392088111",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.974314959606,
+                -37.809303920881
+            ]
+        },
+        "lon": "144.97431495960558",
+        "st_marker_id": "12210N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "5607",
+        "lat": "-37.8095064011665",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.974457824301,
+                -37.809506401166
+            ]
+        },
+        "lon": "144.9744578243005",
+        "st_marker_id": "12233S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "5612",
+        "lat": "-37.80954965951322",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.974846724886,
+                -37.809549659513
+            ]
+        },
+        "lon": "144.97484672488642",
+        "st_marker_id": "12243S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "5584",
+        "lat": "-37.80927403563136",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.97404449735,
+                -37.809274035631
+            ]
+        },
+        "lon": "144.9740444973502",
+        "st_marker_id": "12202N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "5589",
+        "lat": "-37.80931145340672",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.974383072785,
+                -37.809311453407
+            ]
+        },
+        "lon": "144.97438307278472",
+        "st_marker_id": "12212N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "5603",
+        "lat": "-37.80946965054932",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.974127576567,
+                -37.809469650549
+            ]
+        },
+        "lon": "144.97412757656707",
+        "st_marker_id": "12225S",
+        "status": "Present"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "5611",
+        "lat": "-37.8095421232241",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.974779699544,
+                -37.809542123224
+            ]
+        },
+        "lon": "144.9747796995444",
+        "st_marker_id": "12241S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "5585",
+        "lat": "-37.80928160254693",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.974112788846,
+                -37.809281602547
+            ]
+        },
+        "lon": "144.97411278884573",
+        "st_marker_id": "12204N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "5610",
+        "lat": "-37.80953463647572",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.97471211307,
+                -37.809534636476
+            ]
+        },
+        "lon": "144.9747121130703",
+        "st_marker_id": "12239S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "5590",
+        "lat": "-37.80931888456168",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.97445054104,
+                -37.809318884562
+            ]
+        },
+        "lon": "144.97445054104037",
+        "st_marker_id": "12214N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "5608",
+        "lat": "-37.809513040260384",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.974517608062,
+                -37.80951304026
+            ]
+        },
+        "lon": "144.97451760806197",
+        "st_marker_id": "12235S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "5602",
+        "lat": "-37.80946232715752",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.974061257407,
+                -37.809462327158
+            ]
+        },
+        "lon": "144.97406125740736",
+        "st_marker_id": "12223S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "5587",
+        "lat": "-37.809296461864975",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.974247425148,
+                -37.809296461865
+            ]
+        },
+        "lon": "144.97424742514795",
+        "st_marker_id": "12208N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6263",
+        "lat": "-37.8189196878709",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948401941255,
+                -37.818919687871
+            ]
+        },
+        "lon": "144.9484019412546",
+        "st_marker_id": "13329W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6230",
+        "lat": "-37.81656995849221",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945744358626,
+                -37.816569958492
+            ]
+        },
+        "lon": "144.94574435862592",
+        "st_marker_id": "13338E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6275",
+        "lat": "-37.819739537120896",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948434088402,
+                -37.819739537121
+            ]
+        },
+        "lon": "144.94843408840194",
+        "st_marker_id": "13353W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6056",
+        "lat": "-37.82117319038632",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943919313903,
+                -37.821173190386
+            ]
+        },
+        "lon": "144.94391931390288",
+        "st_marker_id": "13034N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6048",
+        "lat": "-37.8210640226779",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.94694855386,
+                -37.821064022678
+            ]
+        },
+        "lon": "144.94694855385976",
+        "st_marker_id": "13018N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6414",
+        "lat": "-37.81975063255024",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945339994109,
+                -37.81975063255
+            ]
+        },
+        "lon": "144.94533999410942",
+        "st_marker_id": "13664E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "5586",
+        "lat": "-37.80928907327666",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.974180376523,
+                -37.809289073277
+            ]
+        },
+        "lon": "144.97418037652295",
+        "st_marker_id": "12206N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6021",
+        "lat": "-37.821242746254875",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.946946550207,
+                -37.821242746255
+            ]
+        },
+        "lon": "144.9469465502065",
+        "st_marker_id": "13041S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6060",
+        "lat": "-37.82111067346008",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943658369316,
+                -37.82111067346
+            ]
+        },
+        "lon": "144.94365836931635",
+        "st_marker_id": "13042N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6039",
+        "lat": "-37.82108790682098",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.942820875108,
+                -37.821087906821
+            ]
+        },
+        "lon": "144.94282087510769",
+        "st_marker_id": "13089S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6351",
+        "lat": "-37.82137538672006",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.950543169291,
+                -37.82137538672
+            ]
+        },
+        "lon": "144.95054316929054",
+        "st_marker_id": "13279S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6268",
+        "lat": "-37.819201103485526",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948412900172,
+                -37.819201103486
+            ]
+        },
+        "lon": "144.94841290017195",
+        "st_marker_id": "13339W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6240",
+        "lat": "-37.82198424338591",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947784309401,
+                -37.821984243386
+            ]
+        },
+        "lon": "144.94778430940102",
+        "st_marker_id": "13356E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6312",
+        "lat": "-37.82039783690817",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.950346148166,
+                -37.820397836908
+            ]
+        },
+        "lon": "144.95034614816555",
+        "st_marker_id": "13381W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "1019",
+        "lat": "-37.81537450838522",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.960998145823,
+                -37.815374508385
+            ]
+        },
+        "lon": "144.9609981458234",
+        "st_marker_id": "1112E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6242",
+        "lat": "-37.822102105435185",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947811625005,
+                -37.822102105435
+            ]
+        },
+        "lon": "144.9478116250051",
+        "st_marker_id": "13360E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6385",
+        "lat": "-37.82028446568013",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944436167112,
+                -37.82028446568
+            ]
+        },
+        "lon": "144.94443616711226",
+        "st_marker_id": "13633W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6388",
+        "lat": "-37.8200185010147",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944312846762,
+                -37.820018501015
+            ]
+        },
+        "lon": "144.94431284676216",
+        "st_marker_id": "13639W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "2497",
+        "lat": "-37.812460436047175",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.961602405248,
+                -37.812460436047
+            ]
+        },
+        "lon": "144.96160240524839",
+        "st_marker_id": "C2926",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "2501",
+        "lat": "-37.81249994562861",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.961466723023,
+                -37.812499945629
+            ]
+        },
+        "lon": "144.9614667230229",
+        "st_marker_id": "C2934",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6384",
+        "lat": "-37.82033947814555",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944460409404,
+                -37.820339478146
+            ]
+        },
+        "lon": "144.94446040940366",
+        "st_marker_id": "13631W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6391",
+        "lat": "-37.82031363905712",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944550767698,
+                -37.820313639057
+            ]
+        },
+        "lon": "144.9445507676984",
+        "st_marker_id": "13638E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6025",
+        "lat": "-37.82148621273747",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.94605193586,
+                -37.821486212737
+            ]
+        },
+        "lon": "144.94605193586034",
+        "st_marker_id": "13061S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "2714",
+        "lat": "-37.80782281308842",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.960107707345,
+                -37.807822813088
+            ]
+        },
+        "lon": "144.96010770734512",
+        "st_marker_id": "4003W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6390",
+        "lat": "-37.82036873067143",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944574892443,
+                -37.820368730671
+            ]
+        },
+        "lon": "144.94457489244326",
+        "st_marker_id": "13636E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "5164",
+        "lat": "-37.81561077461876",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.960979298065,
+                -37.815610774619
+            ]
+        },
+        "lon": "144.96097929806547",
+        "st_marker_id": "C1109",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6386",
+        "lat": "-37.82012665834914",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944362971008,
+                -37.820126658349
+            ]
+        },
+        "lon": "144.9443629710079",
+        "st_marker_id": "13635W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "2495",
+        "lat": "-37.81243139013776",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.961701759072,
+                -37.812431390138
+            ]
+        },
+        "lon": "144.96170175907196",
+        "st_marker_id": "C2922",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6241",
+        "lat": "-37.82203849301031",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947798150801,
+                -37.82203849301
+            ]
+        },
+        "lon": "144.9477981508007",
+        "st_marker_id": "13358E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6280",
+        "lat": "-37.818984217049135",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948617697878,
+                -37.818984217049
+            ]
+        },
+        "lon": "144.9486176978782",
+        "st_marker_id": "13438E",
+        "status": "Present"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6606",
+        "lat": "-37.81458769360551",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.940374281314,
+                -37.814587693606
+            ]
+        },
+        "lon": "144.9403742813135",
+        "st_marker_id": "13841S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6259",
+        "lat": "-37.819869415259575",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.94805364401,
+                -37.81986941526
+            ]
+        },
+        "lon": "144.94805364400952",
+        "st_marker_id": "13422E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6260",
+        "lat": "-37.81991272957934",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.94809973741,
+                -37.819912729579
+            ]
+        },
+        "lon": "144.94809973740968",
+        "st_marker_id": "13424E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6377",
+        "lat": "-37.82009630817031",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943908867821,
+                -37.82009630817
+            ]
+        },
+        "lon": "144.94390886782145",
+        "st_marker_id": "13612E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6400",
+        "lat": "-37.82030819278442",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945389674406,
+                -37.820308192784
+            ]
+        },
+        "lon": "144.94538967440602",
+        "st_marker_id": "13653W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6437",
+        "lat": "-37.81975103837492",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945895608701,
+                -37.819751038375
+            ]
+        },
+        "lon": "144.94589560870062",
+        "st_marker_id": "13701W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6118",
+        "lat": "-37.81948453280296",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945014504512,
+                -37.819484532803
+            ]
+        },
+        "lon": "144.9450145045115",
+        "st_marker_id": "C13576",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6185",
+        "lat": "-37.819930950529155",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943159718464,
+                -37.819930950529
+            ]
+        },
+        "lon": "144.94315971846427",
+        "st_marker_id": "13260N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6088",
+        "lat": "-37.82004168040871",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943404466561,
+                -37.820041680409
+            ]
+        },
+        "lon": "144.943404466561",
+        "st_marker_id": "13241S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6078",
+        "lat": "-37.81891068118254",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947337625731,
+                -37.818910681183
+            ]
+        },
+        "lon": "144.94733762573063",
+        "st_marker_id": "13221S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6430",
+        "lat": "-37.8203897398962",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.946062454143,
+                -37.820389739896
+            ]
+        },
+        "lon": "144.94606245414275",
+        "st_marker_id": "13687W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6269",
+        "lat": "-37.819255136931886",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948415036508,
+                -37.819255136932
+            ]
+        },
+        "lon": "144.94841503650807",
+        "st_marker_id": "13341W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6154",
+        "lat": "-37.820063418455405",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943010593058,
+                -37.820063418455
+            ]
+        },
+        "lon": "144.94301059305812",
+        "st_marker_id": "C13720",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6270",
+        "lat": "-37.8193114248518",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948417139979,
+                -37.819311424852
+            ]
+        },
+        "lon": "144.9484171399792",
+        "st_marker_id": "13343W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6271",
+        "lat": "-37.819369960764135",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948419202597,
+                -37.819369960764
+            ]
+        },
+        "lon": "144.9484192025969",
+        "st_marker_id": "13345W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6183",
+        "lat": "-37.81989373658233",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943287680816,
+                -37.819893736582
+            ]
+        },
+        "lon": "144.94328768081613",
+        "st_marker_id": "13256N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6218",
+        "lat": "-37.81969216491619",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947081018409,
+                -37.819692164916
+            ]
+        },
+        "lon": "144.94708101840905",
+        "st_marker_id": "13314E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6201",
+        "lat": "-37.820206519755715",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947105827604,
+                -37.820206519756
+            ]
+        },
+        "lon": "144.94710582760376",
+        "st_marker_id": "13315W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6267",
+        "lat": "-37.81914482119926",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948410624493,
+                -37.819144821199
+            ]
+        },
+        "lon": "144.9484106244932",
+        "st_marker_id": "13337W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6232",
+        "lat": "-37.815959614273524",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945475678297,
+                -37.815959614274
+            ]
+        },
+        "lon": "144.94547567829656",
+        "st_marker_id": "13342E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6234",
+        "lat": "-37.81584632484113",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945425644661,
+                -37.815846324841
+            ]
+        },
+        "lon": "144.94542564466076",
+        "st_marker_id": "13346E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6320",
+        "lat": "-37.821271039627376",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.951032633634,
+                -37.821271039627
+            ]
+        },
+        "lon": "144.9510326336336",
+        "st_marker_id": "13397W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6249",
+        "lat": "-37.8191396082871",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947277038535,
+                -37.819139608287
+            ]
+        },
+        "lon": "144.9472770385347",
+        "st_marker_id": "13402E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6252",
+        "lat": "-37.81927228594812",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.94741784611,
+                -37.819272285948
+            ]
+        },
+        "lon": "144.94741784611003",
+        "st_marker_id": "13408E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6253",
+        "lat": "-37.81931645734676",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947464945309,
+                -37.819316457347
+            ]
+        },
+        "lon": "144.94746494530906",
+        "st_marker_id": "13410E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6254",
+        "lat": "-37.81936057119435",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947512039922,
+                -37.819360571194
+            ]
+        },
+        "lon": "144.94751203992215",
+        "st_marker_id": "13412E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6256",
+        "lat": "-37.81973947127898",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.94791536302,
+                -37.819739471279
+            ]
+        },
+        "lon": "144.94791536302006",
+        "st_marker_id": "13416E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6258",
+        "lat": "-37.819826100923",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948007550675,
+                -37.819826100923
+            ]
+        },
+        "lon": "144.94800755067544",
+        "st_marker_id": "13420E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6290",
+        "lat": "-37.819938434493096",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948654548858,
+                -37.819938434493
+            ]
+        },
+        "lon": "144.94865454885777",
+        "st_marker_id": "13458E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6359",
+        "lat": "-37.82161974277983",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.95048143786,
+                -37.82161974278
+            ]
+        },
+        "lon": "144.95048143786",
+        "st_marker_id": "13520E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6443",
+        "lat": "-37.820481803249876",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943004246707,
+                -37.82048180325
+            ]
+        },
+        "lon": "144.94300424670655",
+        "st_marker_id": "13576E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6371",
+        "lat": "-37.82047869686021",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944077125936,
+                -37.82047869686
+            ]
+        },
+        "lon": "144.94407712593596",
+        "st_marker_id": "13600E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6372",
+        "lat": "-37.8204134675353",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.94404887653,
+                -37.820413467535
+            ]
+        },
+        "lon": "144.9440488765303",
+        "st_marker_id": "13602E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6376",
+        "lat": "-37.8202094306872",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.9439585265,
+                -37.820209430687
+            ]
+        },
+        "lon": "144.94395852650013",
+        "st_marker_id": "13610E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6639",
+        "lat": "-37.819580262591984",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943540106097,
+                -37.819580262592
+            ]
+        },
+        "lon": "144.94354010609712",
+        "st_marker_id": "13619W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6393",
+        "lat": "-37.82010084378016",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944451678445,
+                -37.82010084378
+            ]
+        },
+        "lon": "144.94445167844503",
+        "st_marker_id": "13642E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6399",
+        "lat": "-37.82036941672416",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945405946982,
+                -37.820369416724
+            ]
+        },
+        "lon": "144.9454059469815",
+        "st_marker_id": "13651W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6424",
+        "lat": "-37.82102321088048",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.946229536461,
+                -37.82102321088
+            ]
+        },
+        "lon": "144.9462295364608",
+        "st_marker_id": "13675W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6426",
+        "lat": "-37.82091475725626",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.94620103235,
+                -37.820914757256
+            ]
+        },
+        "lon": "144.94620103234968",
+        "st_marker_id": "13679W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6519",
+        "lat": "-37.81270846843367",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.936495424123,
+                -37.812708468434
+            ]
+        },
+        "lon": "144.93649542412254",
+        "st_marker_id": "13752E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6520",
+        "lat": "-37.81265649338202",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.936463956406,
+                -37.812656493382
+            ]
+        },
+        "lon": "144.93646395640562",
+        "st_marker_id": "13754E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6585",
+        "lat": "-37.81338309340318",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.940833818371,
+                -37.813383093403
+            ]
+        },
+        "lon": "144.9408338183706",
+        "st_marker_id": "13779W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6474",
+        "lat": "-37.81422996696686",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.938832687642,
+                -37.814229966967
+            ]
+        },
+        "lon": "144.93883268764188",
+        "st_marker_id": "13808N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6492",
+        "lat": "-37.815826267820086",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.937542758396,
+                -37.81582626782
+            ]
+        },
+        "lon": "144.93754275839638",
+        "st_marker_id": "13826N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6571",
+        "lat": "-37.81274616966401",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.940065191893,
+                -37.812746169664
+            ]
+        },
+        "lon": "144.9400651918926",
+        "st_marker_id": "13838N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6616",
+        "lat": "-37.81392735508366",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.942057516456,
+                -37.813927355084
+            ]
+        },
+        "lon": "144.94205751645586",
+        "st_marker_id": "13861S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6617",
+        "lat": "-37.814050782426506",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.941560819556,
+                -37.814050782427
+            ]
+        },
+        "lon": "144.9415608195564",
+        "st_marker_id": "13866N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6652",
+        "lat": "-37.8136138535573",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.942534403107,
+                -37.813613853557
+            ]
+        },
+        "lon": "144.94253440310735",
+        "st_marker_id": "13880N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6603",
+        "lat": "-37.81390575395386",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.94127258567,
+                -37.813905753954
+            ]
+        },
+        "lon": "144.94127258566988",
+        "st_marker_id": "13912E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6629",
+        "lat": "-37.8136708250795",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.942058226699,
+                -37.813670825079
+            ]
+        },
+        "lon": "144.94205822669878",
+        "st_marker_id": "13916E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6634",
+        "lat": "-37.814022011044464",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.942497602626,
+                -37.814022011044
+            ]
+        },
+        "lon": "144.94249760262625",
+        "st_marker_id": "13919W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6631",
+        "lat": "-37.813970409121296",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.942550328764,
+                -37.813970409121
+            ]
+        },
+        "lon": "144.94255032876387",
+        "st_marker_id": "13920E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6101",
+        "lat": "-37.819219255631985",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945932891115,
+                -37.819219255632
+            ]
+        },
+        "lon": "144.9459328911147",
+        "st_marker_id": "C13500",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6106",
+        "lat": "-37.81926491052582",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945774544848,
+                -37.819264910526
+            ]
+        },
+        "lon": "144.94577454484752",
+        "st_marker_id": "C13520",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6107",
+        "lat": "-37.81928017725923",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945721533291,
+                -37.819280177259
+            ]
+        },
+        "lon": "144.94572153329142",
+        "st_marker_id": "C13524",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6132",
+        "lat": "-37.81968176847585",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944330353274,
+                -37.819681768476
+            ]
+        },
+        "lon": "144.94433035327427",
+        "st_marker_id": "C13632",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6147",
+        "lat": "-37.81999578991213",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943243137328,
+                -37.819995789912
+            ]
+        },
+        "lon": "144.94324313732807",
+        "st_marker_id": "C13692",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6274",
+        "lat": "-37.81969089443905",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948432455488,
+                -37.819690894439
+            ]
+        },
+        "lon": "144.94843245548836",
+        "st_marker_id": "13351W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6394",
+        "lat": "-37.82004401021973",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944425999963,
+                -37.82004401022
+            ]
+        },
+        "lon": "144.94442599996327",
+        "st_marker_id": "13644E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6055",
+        "lat": "-37.82118881864105",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943984549551,
+                -37.821188818641
+            ]
+        },
+        "lon": "144.94398454955126",
+        "st_marker_id": "13032N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6024",
+        "lat": "-37.8214674697042",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.946140769266,
+                -37.821467469704
+            ]
+        },
+        "lon": "144.94614076926644",
+        "st_marker_id": "13059S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6038",
+        "lat": "-37.82110352876951",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.942886055158,
+                -37.82110352877
+            ]
+        },
+        "lon": "144.9428860551576",
+        "st_marker_id": "13087S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6362",
+        "lat": "-37.82172021641781",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.951125926946,
+                -37.821720216418
+            ]
+        },
+        "lon": "144.9511259269456",
+        "st_marker_id": "13308N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6225",
+        "lat": "-37.816849844941174",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945867944029,
+                -37.816849844941
+            ]
+        },
+        "lon": "144.94586794402903",
+        "st_marker_id": "13328E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6261",
+        "lat": "-37.81995604389223",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948145831431,
+                -37.819956043892
+            ]
+        },
+        "lon": "144.94814583143113",
+        "st_marker_id": "13426E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6418",
+        "lat": "-37.82105433070951",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945338131068,
+                -37.82105433071
+            ]
+        },
+        "lon": "144.94533813106761",
+        "st_marker_id": "13669W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6472",
+        "lat": "-37.81383752646329",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.940010022324,
+                -37.813837526463
+            ]
+        },
+        "lon": "144.94001002232363",
+        "st_marker_id": "13804N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6620",
+        "lat": "-37.81397369007615",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.941764056711,
+                -37.813973690076
+            ]
+        },
+        "lon": "144.94176405671067",
+        "st_marker_id": "13872N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6124",
+        "lat": "-37.81954632976269",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944800991391,
+                -37.819546329763
+            ]
+        },
+        "lon": "144.9448009913908",
+        "st_marker_id": "C13600",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6134",
+        "lat": "-37.81976392014481",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.94404894065,
+                -37.819763920145
+            ]
+        },
+        "lon": "144.94404894065008",
+        "st_marker_id": "C13640",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6155",
+        "lat": "-37.820071481251816",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.942982868121,
+                -37.820071481252
+            ]
+        },
+        "lon": "144.94298286812057",
+        "st_marker_id": "C13724",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6115",
+        "lat": "-37.81936103308774",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945441327902,
+                -37.819361033088
+            ]
+        },
+        "lon": "144.94544132790173",
+        "st_marker_id": "C13556",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6482",
+        "lat": "-37.81564017194576",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.936910080969,
+                -37.815640171946
+            ]
+        },
+        "lon": "144.93691008096914",
+        "st_marker_id": "13709W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6423",
+        "lat": "-37.821076678249206",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.946243788539,
+                -37.821076678249
+            ]
+        },
+        "lon": "144.9462437885388",
+        "st_marker_id": "13673W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6709",
+        "lat": "-37.81645800941624",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945694910167,
+                -37.816458009416
+            ]
+        },
+        "lon": "144.9456949101669",
+        "st_marker_id": "13296E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6140",
+        "lat": "-37.819928184708786",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943475598232,
+                -37.819928184709
+            ]
+        },
+        "lon": "144.94347559823188",
+        "st_marker_id": "C13664",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6282",
+        "lat": "-37.819106537945174",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948622362213,
+                -37.819106537945
+            ]
+        },
+        "lon": "144.94862236221272",
+        "st_marker_id": "13442E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6205",
+        "lat": "-37.81990262159043",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.946976253642,
+                -37.81990262159
+            ]
+        },
+        "lon": "144.9469762536424",
+        "st_marker_id": "13323W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6407",
+        "lat": "-37.820441255296075",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945520974808,
+                -37.820441255296
+            ]
+        },
+        "lon": "144.94552097480818",
+        "st_marker_id": "13650E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6438",
+        "lat": "-37.81969703653273",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945881586016,
+                -37.819697036533
+            ]
+        },
+        "lon": "144.94588158601587",
+        "st_marker_id": "13703W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6558",
+        "lat": "-37.812019615672604",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.938381575924,
+                -37.812019615673
+            ]
+        },
+        "lon": "144.93838157592373",
+        "st_marker_id": "13777W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6641",
+        "lat": "-37.81939427010461",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943454898949,
+                -37.819394270105
+            ]
+        },
+        "lon": "144.9434548989487",
+        "st_marker_id": "13623W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6020",
+        "lat": "-37.82122207201951",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947018157002,
+                -37.82122207202
+            ]
+        },
+        "lon": "144.94701815700228",
+        "st_marker_id": "13039S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6308",
+        "lat": "-37.81975611215275",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.949840259173,
+                -37.819756112153
+            ]
+        },
+        "lon": "144.94984025917256",
+        "st_marker_id": "13373W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6323",
+        "lat": "-37.82141258356655",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.951144660865,
+                -37.821412583567
+            ]
+        },
+        "lon": "144.951144660865",
+        "st_marker_id": "13403W",
+        "status": "Present"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6287",
+        "lat": "-37.81938026605799",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948632788999,
+                -37.819380266058
+            ]
+        },
+        "lon": "144.94863278899874",
+        "st_marker_id": "13452E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6454",
+        "lat": "-37.819863855414724",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.942744749588,
+                -37.819863855415
+            ]
+        },
+        "lon": "144.94274474958797",
+        "st_marker_id": "13584E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6486",
+        "lat": "-37.81556065414702",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.937489793237,
+                -37.815560654147
+            ]
+        },
+        "lon": "144.9374897932367",
+        "st_marker_id": "13829S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6611",
+        "lat": "-37.814332433774084",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.94099267002,
+                -37.814332433774
+            ]
+        },
+        "lon": "144.94099267002002",
+        "st_marker_id": "13851S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6632",
+        "lat": "-37.814024629834215",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.942633925299,
+                -37.814024629834
+            ]
+        },
+        "lon": "144.9426339252993",
+        "st_marker_id": "13922E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6073",
+        "lat": "-37.81877867379538",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947798638235,
+                -37.818778673795
+            ]
+        },
+        "lon": "144.94779863823527",
+        "st_marker_id": "13211S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6753",
+        "lat": "-37.82136677470263",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944742559935,
+                -37.821366774703
+            ]
+        },
+        "lon": "144.94474255993526",
+        "st_marker_id": "13090N",
+        "status": "Present"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6542",
+        "lat": "-37.813540173342474",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.939299142756,
+                -37.813540173342
+            ]
+        },
+        "lon": "144.9392991427561",
+        "st_marker_id": "13745W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6085",
+        "lat": "-37.819596595748976",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944941702896,
+                -37.819596595749
+            ]
+        },
+        "lon": "144.94494170289573",
+        "st_marker_id": "13235S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6061",
+        "lat": "-37.82109504413756",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943593133813,
+                -37.821095044138
+            ]
+        },
+        "lon": "144.94359313381324",
+        "st_marker_id": "13044N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6445",
+        "lat": "-37.82032363080728",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.942929427762,
+                -37.820323630807
+            ]
+        },
+        "lon": "144.94292942776153",
+        "st_marker_id": "13580E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6220",
+        "lat": "-37.8195396001477",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947013172812,
+                -37.819539600148
+            ]
+        },
+        "lon": "144.94701317281186",
+        "st_marker_id": "13318E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6265",
+        "lat": "-37.81903225640254",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948406318121,
+                -37.819032256403
+            ]
+        },
+        "lon": "144.94840631812067",
+        "st_marker_id": "13333W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6131",
+        "lat": "-37.819673337996456",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944359309391,
+                -37.819673337996
+            ]
+        },
+        "lon": "144.94435930939085",
+        "st_marker_id": "C13628",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6146",
+        "lat": "-37.81998772661222",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943270862779,
+                -37.819987726612
+            ]
+        },
+        "lon": "144.94327086277917",
+        "st_marker_id": "C13688",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6644",
+        "lat": "-37.81957898275758",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943701444176,
+                -37.819578982758
+            ]
+        },
+        "lon": "144.94370144417576",
+        "st_marker_id": "13616E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6469",
+        "lat": "-37.815213074465035",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.93692626687,
+                -37.815213074465
+            ]
+        },
+        "lon": "144.93692626686996",
+        "st_marker_id": "13825S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6105",
+        "lat": "-37.819255595277355",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.94580653889,
+                -37.819255595277
+            ]
+        },
+        "lon": "144.94580653889028",
+        "st_marker_id": "C13516",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6416",
+        "lat": "-37.82116722967102",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945367804042,
+                -37.821167229671
+            ]
+        },
+        "lon": "144.94536780404178",
+        "st_marker_id": "13665W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6487",
+        "lat": "-37.81559577773997",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.937397539796,
+                -37.81559577774
+            ]
+        },
+        "lon": "144.93739753979597",
+        "st_marker_id": "13831S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6176",
+        "lat": "-37.819613851850605",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944248409816,
+                -37.819613851851
+            ]
+        },
+        "lon": "144.9442484098157",
+        "st_marker_id": "13242N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6633",
+        "lat": "-37.813967414908575",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.942414310816,
+                -37.813967414909
+            ]
+        },
+        "lon": "144.94241431081554",
+        "st_marker_id": "13917W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6297",
+        "lat": "-37.819547555887574",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.949323217072,
+                -37.819547555888
+            ]
+        },
+        "lon": "144.9493232170718",
+        "st_marker_id": "13273S",
+        "status": "Present"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6757",
+        "lat": "-37.82106514578931",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944251097727,
+                -37.821065145789
+            ]
+        },
+        "lon": "144.94425109772652",
+        "st_marker_id": "13097W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6398",
+        "lat": "-37.82043069712593",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945422219026,
+                -37.820430697126
+            ]
+        },
+        "lon": "144.94542221902637",
+        "st_marker_id": "13649W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6294",
+        "lat": "-37.82016452130774",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948663220369,
+                -37.820164521308
+            ]
+        },
+        "lon": "144.9486632203689",
+        "st_marker_id": "13466E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6496",
+        "lat": "-37.81576748540225",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.938010224929,
+                -37.815767485402
+            ]
+        },
+        "lon": "144.93801022492937",
+        "st_marker_id": "13717W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6427",
+        "lat": "-37.8208605302265",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.94618770515,
+                -37.820860530226
+            ]
+        },
+        "lon": "144.9461877051497",
+        "st_marker_id": "13681W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6135",
+        "lat": "-37.81977373071475",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944014505522,
+                -37.819773730715
+            ]
+        },
+        "lon": "144.9440145055217",
+        "st_marker_id": "C13644",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6141",
+        "lat": "-37.81993624759802",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943447873366,
+                -37.819936247598
+            ]
+        },
+        "lon": "144.9434478733662",
+        "st_marker_id": "C13668",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6467",
+        "lat": "-37.81516053506584",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.937060474644,
+                -37.815160535066
+            ]
+        },
+        "lon": "144.93706047464406",
+        "st_marker_id": "13821S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6091",
+        "lat": "-37.820097325046675",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943213348674,
+                -37.820097325047
+            ]
+        },
+        "lon": "144.94321334867416",
+        "st_marker_id": "13249S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6410",
+        "lat": "-37.819972188320335",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945397879138,
+                -37.81997218832
+            ]
+        },
+        "lon": "144.94539787913808",
+        "st_marker_id": "13656E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6570",
+        "lat": "-37.81277699409681",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.939982095303,
+                -37.812776994097
+            ]
+        },
+        "lon": "144.9399820953027",
+        "st_marker_id": "13836N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6231",
+        "lat": "-37.816513984176765",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945719636965,
+                -37.816513984177
+            ]
+        },
+        "lon": "144.94571963696453",
+        "st_marker_id": "13340E",
+        "status": "Present"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6708",
+        "lat": "-37.816402032829835",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945670182332,
+                -37.81640203283
+            ]
+        },
+        "lon": "144.94567018233198",
+        "st_marker_id": "13298E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6223",
+        "lat": "-37.81813758797308",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.946436556253,
+                -37.818137587973
+            ]
+        },
+        "lon": "144.94643655625285",
+        "st_marker_id": "13324E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6433",
+        "lat": "-37.820205576322415",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.946014427697,
+                -37.820205576322
+            ]
+        },
+        "lon": "144.94601442769743",
+        "st_marker_id": "13693W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6052",
+        "lat": "-37.821141369613784",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.946681013894,
+                -37.821141369614
+            ]
+        },
+        "lon": "144.94668101389433",
+        "st_marker_id": "13026N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6555",
+        "lat": "-37.812163778576206",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.938468823551,
+                -37.812163778576
+            ]
+        },
+        "lon": "144.93846882355092",
+        "st_marker_id": "13771W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6380",
+        "lat": "-37.819084921481604",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944338902942,
+                -37.819084921482
+            ]
+        },
+        "lon": "144.94433890294243",
+        "st_marker_id": "13630E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6489",
+        "lat": "-37.81566590226585",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.937213212588,
+                -37.815665902266
+            ]
+        },
+        "lon": "144.93721321258772",
+        "st_marker_id": "13835S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6419",
+        "lat": "-37.82099788099109",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945324218748,
+                -37.820997880991
+            ]
+        },
+        "lon": "144.94532421874825",
+        "st_marker_id": "13671W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6067",
+        "lat": "-37.82093735785049",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.942934968744,
+                -37.82093735785
+            ]
+        },
+        "lon": "144.9429349687436",
+        "st_marker_id": "13056N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6295",
+        "lat": "-37.81959089784035",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.949171441206,
+                -37.81959089784
+            ]
+        },
+        "lon": "144.9491714412062",
+        "st_marker_id": "13269S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6244",
+        "lat": "-37.82233066659623",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.946786142474,
+                -37.822330666596
+            ]
+        },
+        "lon": "144.9467861424736",
+        "st_marker_id": "13303S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6439",
+        "lat": "-37.81964303424854",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.94586756335,
+                -37.819643034249
+            ]
+        },
+        "lon": "144.9458675633498",
+        "st_marker_id": "13705W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6179",
+        "lat": "-37.8196689953097",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944060165112,
+                -37.81966899531
+            ]
+        },
+        "lon": "144.94406016511218",
+        "st_marker_id": "13248N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6206",
+        "lat": "-37.81981293012244",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.946935238067,
+                -37.819812930122
+            ]
+        },
+        "lon": "144.94693523806714",
+        "st_marker_id": "13325W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6538",
+        "lat": "-37.81326599137738",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.939251777892,
+                -37.813265991377
+            ]
+        },
+        "lon": "144.93925177789228",
+        "st_marker_id": "13778E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6209",
+        "lat": "-37.81480383466083",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945399943526,
+                -37.814803834661
+            ]
+        },
+        "lon": "144.94539994352607",
+        "st_marker_id": "13280N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6647",
+        "lat": "-37.81942211605225",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943629462373,
+                -37.819422116052
+            ]
+        },
+        "lon": "144.943629462373",
+        "st_marker_id": "13622E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6409",
+        "lat": "-37.820309011425834",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945486477846,
+                -37.820309011426
+            ]
+        },
+        "lon": "144.94548647784595",
+        "st_marker_id": "13654E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6216",
+        "lat": "-37.81984608827504",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947148749904,
+                -37.819846088275
+            ]
+        },
+        "lon": "144.94714874990433",
+        "st_marker_id": "13310E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6612",
+        "lat": "-37.81411371713209",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.941568276503,
+                -37.814113717132
+            ]
+        },
+        "lon": "144.94156827650255",
+        "st_marker_id": "13853S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6518",
+        "lat": "-37.81276044529915",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.936526891315,
+                -37.812760445299
+            ]
+        },
+        "lon": "144.93652689131466",
+        "st_marker_id": "13750E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6137",
+        "lat": "-37.819793849177344",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943945416867,
+                -37.819793849177
+            ]
+        },
+        "lon": "144.94394541686725",
+        "st_marker_id": "C13652",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6756",
+        "lat": "-37.82112441428763",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944279667739,
+                -37.821124414288
+            ]
+        },
+        "lon": "144.94427966773912",
+        "st_marker_id": "13095W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6074",
+        "lat": "-37.818795475926336",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947740711008,
+                -37.818795475926
+            ]
+        },
+        "lon": "144.94774071100824",
+        "st_marker_id": "13213S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6255",
+        "lat": "-37.81940468764746",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947559149059,
+                -37.819404687647
+            ]
+        },
+        "lon": "144.94755914905892",
+        "st_marker_id": "13414E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6186",
+        "lat": "-37.819949557664174",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943095737526,
+                -37.819949557664
+            ]
+        },
+        "lon": "144.94309573752605",
+        "st_marker_id": "13262N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6375",
+        "lat": "-37.82026048134979",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943981062007,
+                -37.82026048135
+            ]
+        },
+        "lon": "144.9439810620066",
+        "st_marker_id": "13608E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6471",
+        "lat": "-37.8138115378207",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.940078208149,
+                -37.813811537821
+            ]
+        },
+        "lon": "144.94007820814937",
+        "st_marker_id": "13802N",
+        "status": "Present"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6236",
+        "lat": "-37.81573303491969",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945375610036,
+                -37.81573303492
+            ]
+        },
+        "lon": "144.94537561003557",
+        "st_marker_id": "13350E",
+        "status": "Present"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6262",
+        "lat": "-37.8199993586387",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948191701524,
+                -37.819999358639
+            ]
+        },
+        "lon": "144.94819170152437",
+        "st_marker_id": "13428E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6239",
+        "lat": "-37.818822152409126",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.946967244073,
+                -37.818822152409
+            ]
+        },
+        "lon": "144.94696724407333",
+        "st_marker_id": "13200N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6194",
+        "lat": "-37.820748510144924",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947264008205,
+                -37.820748510145
+            ]
+        },
+        "lon": "144.9472640082049",
+        "st_marker_id": "13301W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6420",
+        "lat": "-37.82109569903824",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945445864919,
+                -37.821095699038
+            ]
+        },
+        "lon": "144.9454458649189",
+        "st_marker_id": "13666E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6495",
+        "lat": "-37.815840563414724",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.938054520411,
+                -37.815840563415
+            ]
+        },
+        "lon": "144.93805452041113",
+        "st_marker_id": "13715W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6638",
+        "lat": "-37.81962995415188",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943562887881,
+                -37.819629954152
+            ]
+        },
+        "lon": "144.94356288788055",
+        "st_marker_id": "13617W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6151",
+        "lat": "-37.82003923050601",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943093768997,
+                -37.820039230506
+            ]
+        },
+        "lon": "144.94309376899662",
+        "st_marker_id": "C13708",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6093",
+        "lat": "-37.82013907685693",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943069948186,
+                -37.820139076857
+            ]
+        },
+        "lon": "144.94306994818584",
+        "st_marker_id": "13253S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6214",
+        "lat": "-37.819999021955255",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947216109608,
+                -37.819999021955
+            ]
+        },
+        "lon": "144.94721610960835",
+        "st_marker_id": "13306E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6110",
+        "lat": "-37.819307710652055",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945626163765,
+                -37.819307710652
+            ]
+        },
+        "lon": "144.94562616376516",
+        "st_marker_id": "C13536",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6104",
+        "lat": "-37.81924644098103",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945838554943,
+                -37.819246440981
+            ]
+        },
+        "lon": "144.94583855494295",
+        "st_marker_id": "C13512",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6412",
+        "lat": "-37.81986137241454",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945369490594,
+                -37.819861372415
+            ]
+        },
+        "lon": "144.94536949059392",
+        "st_marker_id": "13660E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6630",
+        "lat": "-37.81391611268452",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.942466930008,
+                -37.813916112685
+            ]
+        },
+        "lon": "144.94246693000838",
+        "st_marker_id": "13918E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6251",
+        "lat": "-37.81922802801647",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947370832639,
+                -37.819228028016
+            ]
+        },
+        "lon": "144.94737083263865",
+        "st_marker_id": "13406E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6173",
+        "lat": "-37.819446126783916",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944834344043,
+                -37.819446126784
+            ]
+        },
+        "lon": "144.94483434404276",
+        "st_marker_id": "13236N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6145",
+        "lat": "-37.81997970286915",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943298455383,
+                -37.819979702869
+            ]
+        },
+        "lon": "144.94329845538346",
+        "st_marker_id": "C13684",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6238",
+        "lat": "-37.81550858947077",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945276484051,
+                -37.815508589471
+            ]
+        },
+        "lon": "144.9452764840512",
+        "st_marker_id": "13354E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6202",
+        "lat": "-37.820118964796066",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947069456977,
+                -37.820118964796
+            ]
+        },
+        "lon": "144.94706945697664",
+        "st_marker_id": "13317W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6109",
+        "lat": "-37.81929825229301",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945658933919,
+                -37.819298252293
+            ]
+        },
+        "lon": "144.94565893391882",
+        "st_marker_id": "C13532",
+        "status": "Present"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6541",
+        "lat": "-37.81359050222113",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.939329689686,
+                -37.813590502221
+            ]
+        },
+        "lon": "144.9393296896858",
+        "st_marker_id": "13743W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6227",
+        "lat": "-37.816737889952776",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945818509531,
+                -37.816737889953
+            ]
+        },
+        "lon": "144.94581850953125",
+        "st_marker_id": "13332E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6404",
+        "lat": "-37.81966575904424",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945224676459,
+                -37.819665759044
+            ]
+        },
+        "lon": "144.94522467645936",
+        "st_marker_id": "13661W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6123",
+        "lat": "-37.81953717751574",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944832602833,
+                -37.819537177516
+            ]
+        },
+        "lon": "144.944832602833",
+        "st_marker_id": "C13596",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6191",
+        "lat": "-37.82018292396344",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.942295704252,
+                -37.820182923963
+            ]
+        },
+        "lon": "144.94229570425165",
+        "st_marker_id": "13272N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6395",
+        "lat": "-37.82061380616932",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.94546998173,
+                -37.820613806169
+            ]
+        },
+        "lon": "144.94546998172984",
+        "st_marker_id": "13643W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6058",
+        "lat": "-37.82114193198904",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943788841545,
+                -37.821141931989
+            ]
+        },
+        "lon": "144.94378884154526",
+        "st_marker_id": "13038N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6035",
+        "lat": "-37.821152904500416",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943092328833,
+                -37.8211529045
+            ]
+        },
+        "lon": "144.94309232883276",
+        "st_marker_id": "13081S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6281",
+        "lat": "-37.819045377947795",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948620030051,
+                -37.819045377948
+            ]
+        },
+        "lon": "144.9486200300509",
+        "st_marker_id": "13440E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6360",
+        "lat": "-37.82179702903255",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.950813958252,
+                -37.821797029033
+            ]
+        },
+        "lon": "144.9508139582522",
+        "st_marker_id": "13304N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6286",
+        "lat": "-37.81932623216136",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948630694554,
+                -37.819326232161
+            ]
+        },
+        "lon": "144.94863069455369",
+        "st_marker_id": "13450E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6022",
+        "lat": "-37.821263419985186",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.94687494394,
+                -37.821263419985
+            ]
+        },
+        "lon": "144.94687494394023",
+        "st_marker_id": "13043S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6077",
+        "lat": "-37.81889279683952",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947399015045,
+                -37.81889279684
+            ]
+        },
+        "lon": "144.94739901504465",
+        "st_marker_id": "13219S",
+        "status": "Present"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6233",
+        "lat": "-37.81590296978487",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.94545066146,
+                -37.815902969785
+            ]
+        },
+        "lon": "144.94545066146043",
+        "st_marker_id": "13344E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6189",
+        "lat": "-37.820145935849396",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.942423739766,
+                -37.820145935849
+            ]
+        },
+        "lon": "144.94242373976556",
+        "st_marker_id": "13268N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6229",
+        "lat": "-37.81662593495585",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945769075756,
+                -37.816625934956
+            ]
+        },
+        "lon": "144.9457690757563",
+        "st_marker_id": "13336E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6130",
+        "lat": "-37.81966489596433",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944388300976,
+                -37.819664895964
+            ]
+        },
+        "lon": "144.9443883009758",
+        "st_marker_id": "C13624",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6200",
+        "lat": "-37.82027323289721",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947128937193,
+                -37.820273232897
+            ]
+        },
+        "lon": "144.94712893719293",
+        "st_marker_id": "13313W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6434",
+        "lat": "-37.82014416727483",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945999776906,
+                -37.820144167275
+            ]
+        },
+        "lon": "144.9459997769062",
+        "st_marker_id": "13695W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6053",
+        "lat": "-37.821218796590344",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944109481473,
+                -37.82121879659
+            ]
+        },
+        "lon": "144.94410948147316",
+        "st_marker_id": "13028N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6556",
+        "lat": "-37.81211504812606",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.938439331765,
+                -37.812115048126
+            ]
+        },
+        "lon": "144.93843933176498",
+        "st_marker_id": "13773W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6150",
+        "lat": "-37.820019978880744",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943159961508,
+                -37.820019978881
+            ]
+        },
+        "lon": "144.94315996150792",
+        "st_marker_id": "C13704",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6649",
+        "lat": "-37.819317532118774",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943581494484,
+                -37.819317532119
+            ]
+        },
+        "lon": "144.94358149448414",
+        "st_marker_id": "13626E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6625",
+        "lat": "-37.81360586599019",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.941834392557,
+                -37.81360586599
+            ]
+        },
+        "lon": "144.9418343925572",
+        "st_marker_id": "13911W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6607",
+        "lat": "-37.81455636562939",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.940436114745,
+                -37.814556365629
+            ]
+        },
+        "lon": "144.9404361147452",
+        "st_marker_id": "13843S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6278",
+        "lat": "-37.81886189615098",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948613033562,
+                -37.818861896151
+            ]
+        },
+        "lon": "144.94861303356225",
+        "st_marker_id": "13434E",
+        "status": "Present"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6761",
+        "lat": "-37.820825828898045",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944137738989,
+                -37.820825828898
+            ]
+        },
+        "lon": "144.9441377389889",
+        "st_marker_id": "13105W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6068",
+        "lat": "-37.81866480998813",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948191197216,
+                -37.818664809988
+            ]
+        },
+        "lon": "144.94819119721552",
+        "st_marker_id": "13201S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6656",
+        "lat": "-37.81988210513503",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948652727827,
+                -37.819882105135
+            ]
+        },
+        "lon": "144.9486527278265",
+        "st_marker_id": "13398E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6554",
+        "lat": "-37.812210479673226",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.938497086588,
+                -37.812210479673
+            ]
+        },
+        "lon": "144.93849708658814",
+        "st_marker_id": "13769W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6169",
+        "lat": "-37.819370475504364",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945095440885,
+                -37.819370475504
+            ]
+        },
+        "lon": "144.94509544088544",
+        "st_marker_id": "13228N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6660",
+        "lat": "-37.81966139349092",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.949765581365,
+                -37.819661393491
+            ]
+        },
+        "lon": "144.94976558136528",
+        "st_marker_id": "13415W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6466",
+        "lat": "-37.81513449663346",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.937127631853,
+                -37.815134496633
+            ]
+        },
+        "lon": "144.9371276318526",
+        "st_marker_id": "13819S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6181",
+        "lat": "-37.819856522512254",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943415642465,
+                -37.819856522512
+            ]
+        },
+        "lon": "144.94341564246469",
+        "st_marker_id": "13252N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6358",
+        "lat": "-37.82156870742946",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.950441312739,
+                -37.821568707429
+            ]
+        },
+        "lon": "144.95044131273914",
+        "st_marker_id": "13518E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6572",
+        "lat": "-37.8127184772563",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.940138261603,
+                -37.812718477256
+            ]
+        },
+        "lon": "144.94013826160312",
+        "st_marker_id": "13840N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6321",
+        "lat": "-37.821314914205885",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.951067358151,
+                -37.821314914206
+            ]
+        },
+        "lon": "144.95106735815125",
+        "st_marker_id": "13399W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6289",
+        "lat": "-37.81948832930551",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948637048985,
+                -37.819488329306
+            ]
+        },
+        "lon": "144.9486370489846",
+        "st_marker_id": "13456E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6374",
+        "lat": "-37.82031147826325",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944003666629,
+                -37.820311478263
+            ]
+        },
+        "lon": "144.94400366662887",
+        "st_marker_id": "13606E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6036",
+        "lat": "-37.82113479065242",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943016615177,
+                -37.821134790652
+            ]
+        },
+        "lon": "144.94301661517727",
+        "st_marker_id": "13083S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6080",
+        "lat": "-37.81939745978721",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945630104869,
+                -37.819397459787
+            ]
+        },
+        "lon": "144.94563010486848",
+        "st_marker_id": "13225S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6485",
+        "lat": "-37.81552555833076",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.937581960396,
+                -37.815525558331
+            ]
+        },
+        "lon": "144.93758196039585",
+        "st_marker_id": "13827S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6488",
+        "lat": "-37.81563080467599",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.937305373047,
+                -37.815630804676
+            ]
+        },
+        "lon": "144.9373053730473",
+        "st_marker_id": "13833S",
+        "status": "Present"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6178",
+        "lat": "-37.819650615032266",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944122669841,
+                -37.819650615032
+            ]
+        },
+        "lon": "144.94412266984102",
+        "st_marker_id": "13246N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6224",
+        "lat": "-37.81690582264376",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945892660782,
+                -37.816905822644
+            ]
+        },
+        "lon": "144.94589266078236",
+        "st_marker_id": "13326E",
+        "status": "Present"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6490",
+        "lat": "-37.81575615633969",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.937727085716,
+                -37.81575615634
+            ]
+        },
+        "lon": "144.93772708571578",
+        "st_marker_id": "13822N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6642",
+        "lat": "-37.81934223214657",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943431025393,
+                -37.819342232147
+            ]
+        },
+        "lon": "144.9434310253929",
+        "st_marker_id": "13625W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6544",
+        "lat": "-37.81343950265885",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.939238162105,
+                -37.813439502659
+            ]
+        },
+        "lon": "144.9392381621047",
+        "st_marker_id": "13749W",
+        "status": "Present"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6755",
+        "lat": "-37.821340163489396",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944617174274,
+                -37.821340163489
+            ]
+        },
+        "lon": "144.94461717427401",
+        "st_marker_id": "13094N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6187",
+        "lat": "-37.820108855824145",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.942551784271,
+                -37.820108855824
+            ]
+        },
+        "lon": "144.9425517842708",
+        "st_marker_id": "13264N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6174",
+        "lat": "-37.81947402569617",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944738065267,
+                -37.819474025696
+            ]
+        },
+        "lon": "144.94473806526696",
+        "st_marker_id": "13238N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6626",
+        "lat": "-37.81364606490875",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.941896440746,
+                -37.813646064909
+            ]
+        },
+        "lon": "144.94189644074558",
+        "st_marker_id": "13913W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6310",
+        "lat": "-37.81987589241449",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.949938942515,
+                -37.819875892414
+            ]
+        },
+        "lon": "144.94993894251533",
+        "st_marker_id": "13377W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6171",
+        "lat": "-37.81940787606811",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944966370474,
+                -37.819407876068
+            ]
+        },
+        "lon": "144.94496637047354",
+        "st_marker_id": "13232N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6119",
+        "lat": "-37.819493682546614",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944982933771,
+                -37.819493682547
+            ]
+        },
+        "lon": "144.94498293377134",
+        "st_marker_id": "C13580",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6425",
+        "lat": "-37.82096898384398",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.946215284389,
+                -37.820968983844
+            ]
+        },
+        "lon": "144.94621528438944",
+        "st_marker_id": "13677W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6064",
+        "lat": "-37.82104865070899",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943399490996,
+                -37.821048650709
+            ]
+        },
+        "lon": "144.94339949099586",
+        "st_marker_id": "13050N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6138",
+        "lat": "-37.819803897503476",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943910872274,
+                -37.819803897503
+            ]
+        },
+        "lon": "144.94391087227396",
+        "st_marker_id": "C13656",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6210",
+        "lat": "-37.814783968489095",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945468142177,
+                -37.814783968489
+            ]
+        },
+        "lon": "144.94546814217716",
+        "st_marker_id": "13282N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6456",
+        "lat": "-37.819614355485015",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.94263124467,
+                -37.819614355485
+            ]
+        },
+        "lon": "144.94263124467017",
+        "st_marker_id": "13588E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6284",
+        "lat": "-37.819218167179116",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948626658588,
+                -37.819218167179
+            ]
+        },
+        "lon": "144.948626658588",
+        "st_marker_id": "13446E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6204",
+        "lat": "-37.819966066383415",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.94700239317,
+                -37.819966066383
+            ]
+        },
+        "lon": "144.94700239316995",
+        "st_marker_id": "13321W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6470",
+        "lat": "-37.81378539923783",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.940146897236,
+                -37.813785399238
+            ]
+        },
+        "lon": "144.94014689723562",
+        "st_marker_id": "13800N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6193",
+        "lat": "-37.820221546063706",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.942162331989,
+                -37.820221546064
+            ]
+        },
+        "lon": "144.94216233198946",
+        "st_marker_id": "13276N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6417",
+        "lat": "-37.82111078040641",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945352967834,
+                -37.821110780406
+            ]
+        },
+        "lon": "144.94535296783445",
+        "st_marker_id": "13667W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6296",
+        "lat": "-37.81956921664208",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.949247325142,
+                -37.819569216642
+            ]
+        },
+        "lon": "144.94924732514238",
+        "st_marker_id": "13271S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6057",
+        "lat": "-37.821157561215294",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943854077136,
+                -37.821157561215
+            ]
+        },
+        "lon": "144.94385407713554",
+        "st_marker_id": "13036N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6436",
+        "lat": "-37.81980503575675",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945909630849,
+                -37.819805035757
+            ]
+        },
+        "lon": "144.94590963084886",
+        "st_marker_id": "13699W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6075",
+        "lat": "-37.81881206444177",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947682591593,
+                -37.818812064442
+            ]
+        },
+        "lon": "144.94768259159292",
+        "st_marker_id": "13215S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6361",
+        "lat": "-37.821768812780114",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.950927032154,
+                -37.82176881278
+            ]
+        },
+        "lon": "144.9509270321537",
+        "st_marker_id": "13306N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6581",
+        "lat": "-37.81245600838406",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.940828105688,
+                -37.812456008384
+            ]
+        },
+        "lon": "144.9408281056877",
+        "st_marker_id": "13858N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6382",
+        "lat": "-37.818981740877454",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.94429122554,
+                -37.818981740877
+            ]
+        },
+        "lon": "144.94429122553967",
+        "st_marker_id": "13634E",
+        "status": "Present"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6246",
+        "lat": "-37.822254682289845",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.946848500303,
+                -37.82225468229
+            ]
+        },
+        "lon": "144.94684850030288",
+        "st_marker_id": "13310N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6103",
+        "lat": "-37.81923720387667",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945870587645,
+                -37.819237203877
+            ]
+        },
+        "lon": "144.94587058764475",
+        "st_marker_id": "C13508",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6396",
+        "lat": "-37.82055326930533",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945454000686,
+                -37.820553269305
+            ]
+        },
+        "lon": "144.94545400068566",
+        "st_marker_id": "13645W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6243",
+        "lat": "-37.82234164036471",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.946869916901,
+                -37.822341640365
+            ]
+        },
+        "lon": "144.946869916901",
+        "st_marker_id": "13301S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6182",
+        "lat": "-37.81987512933999",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.94335166165,
+                -37.81987512934
+            ]
+        },
+        "lon": "144.94335166164956",
+        "st_marker_id": "13254N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6429",
+        "lat": "-37.82045109868588",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.946078480135,
+                -37.820451098686
+            ]
+        },
+        "lon": "144.94607848013453",
+        "st_marker_id": "13685W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6484",
+        "lat": "-37.815485774889126",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.936817118422,
+                -37.815485774889
+            ]
+        },
+        "lon": "144.93681711842214",
+        "st_marker_id": "13713W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6324",
+        "lat": "-37.82146027352151",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.951182406978,
+                -37.821460273522
+            ]
+        },
+        "lon": "144.95118240697767",
+        "st_marker_id": "13405W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6219",
+        "lat": "-37.819628927845734",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.94705455455,
+                -37.819628927846
+            ]
+        },
+        "lon": "144.94705455454954",
+        "st_marker_id": "13316E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6111",
+        "lat": "-37.81931716608157",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945593388719,
+                -37.819317166082
+            ]
+        },
+        "lon": "144.94559338871863",
+        "st_marker_id": "C13540",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6465",
+        "lat": "-37.81510809417088",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.937194780913,
+                -37.815108094171
+            ]
+        },
+        "lon": "144.93719478091288",
+        "st_marker_id": "13817S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6403",
+        "lat": "-37.81973049734499",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945240452067,
+                -37.819730497345
+            ]
+        },
+        "lon": "144.94524045206686",
+        "st_marker_id": "13659W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6584",
+        "lat": "-37.81237334717839",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.941046568069,
+                -37.812373347178
+            ]
+        },
+        "lon": "144.94104656806854",
+        "st_marker_id": "13864N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6608",
+        "lat": "-37.81452714362041",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.940497963014,
+                -37.81452714362
+            ]
+        },
+        "lon": "144.94049796301397",
+        "st_marker_id": "13845S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6413",
+        "lat": "-37.81980590650977",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945354742625,
+                -37.81980590651
+            ]
+        },
+        "lon": "144.9453547426254",
+        "st_marker_id": "13662E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6536",
+        "lat": "-37.81336454999884",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.939311358885,
+                -37.813364549999
+            ]
+        },
+        "lon": "144.93931135888528",
+        "st_marker_id": "13774E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6431",
+        "lat": "-37.82032834866027",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.946046428188,
+                -37.82032834866
+            ]
+        },
+        "lon": "144.9460464281878",
+        "st_marker_id": "13689W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6298",
+        "lat": "-37.8195258954837",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.949399113538,
+                -37.819525895484
+            ]
+        },
+        "lon": "144.94939911353805",
+        "st_marker_id": "13275S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6279",
+        "lat": "-37.8189230570507",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948615365732,
+                -37.818923057051
+            ]
+        },
+        "lon": "144.9486153657319",
+        "st_marker_id": "13436E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6525",
+        "lat": "-37.812244848898665",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.936096823663,
+                -37.812244848899
+            ]
+        },
+        "lon": "144.93609682366346",
+        "st_marker_id": "13725W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6387",
+        "lat": "-37.8200730505486",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944337821232,
+                -37.820073050549
+            ]
+        },
+        "lon": "144.94433782123173",
+        "st_marker_id": "13637W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6126",
+        "lat": "-37.81956463076618",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.94473774155,
+                -37.819564630766
+            ]
+        },
+        "lon": "144.94473774155034",
+        "st_marker_id": "C13608",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6264",
+        "lat": "-37.81897597221868",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948404184529,
+                -37.818975972219
+            ]
+        },
+        "lon": "144.94840418452947",
+        "st_marker_id": "13331W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6143",
+        "lat": "-37.81995237338607",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943392422545,
+                -37.819952373386
+            ]
+        },
+        "lon": "144.9433924225445",
+        "st_marker_id": "C13676",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6015",
+        "lat": "-37.82053720590838",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.949385920063,
+                -37.820537205908
+            ]
+        },
+        "lon": "144.94938592006304",
+        "st_marker_id": "13029S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6069",
+        "lat": "-37.81868140484386",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948133050896,
+                -37.818681404844
+            ]
+        },
+        "lon": "144.94813305089613",
+        "st_marker_id": "13203S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6221",
+        "lat": "-37.81947607937112",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.946987257913,
+                -37.819476079371
+            ]
+        },
+        "lon": "144.9469872579126",
+        "st_marker_id": "13320E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6092",
+        "lat": "-37.82011525242285",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943151774998,
+                -37.820115252423
+            ]
+        },
+        "lon": "144.9431517749976",
+        "st_marker_id": "13251S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6605",
+        "lat": "-37.8146206468528",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.940314827136,
+                -37.814620646853
+            ]
+        },
+        "lon": "144.94031482713643",
+        "st_marker_id": "13839S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6065",
+        "lat": "-37.82103358014694",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943336577316,
+                -37.821033580147
+            ]
+        },
+        "lon": "144.94333657731627",
+        "st_marker_id": "13052N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6468",
+        "lat": "-37.81518657256737",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.936993090688,
+                -37.815186572567
+            ]
+        },
+        "lon": "144.93699309068762",
+        "st_marker_id": "13823S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6248",
+        "lat": "-37.81909965691749",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947227042813,
+                -37.819099656917
+            ]
+        },
+        "lon": "144.9472270428133",
+        "st_marker_id": "13400E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6213",
+        "lat": "-37.82008928037384",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947256952756,
+                -37.820089280374
+            ]
+        },
+        "lon": "144.94725695275616",
+        "st_marker_id": "13304E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6521",
+        "lat": "-37.81260979571675",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.936435684736,
+                -37.812609795717
+            ]
+        },
+        "lon": "144.93643568473584",
+        "st_marker_id": "13756E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6084",
+        "lat": "-37.819578635228496",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945003689527,
+                -37.819578635228
+            ]
+        },
+        "lon": "144.94500368952737",
+        "st_marker_id": "13233S",
+        "status": "Present"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6646",
+        "lat": "-37.81947439799323",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943653449348,
+                -37.819474397993
+            ]
+        },
+        "lon": "144.9436534493484",
+        "st_marker_id": "13620E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6442",
+        "lat": "-37.82053422378496",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943028393709,
+                -37.820534223785
+            ]
+        },
+        "lon": "144.94302839370872",
+        "st_marker_id": "13574E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6113",
+        "lat": "-37.819342766449296",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945504824282,
+                -37.819342766449
+            ]
+        },
+        "lon": "144.94550482428173",
+        "st_marker_id": "C13548",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6063",
+        "lat": "-37.82106378486651",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943462655538,
+                -37.821063784867
+            ]
+        },
+        "lon": "144.94346265553844",
+        "st_marker_id": "13048N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6266",
+        "lat": "-37.81908854023449",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948408468745,
+                -37.819088540234
+            ]
+        },
+        "lon": "144.94840846874524",
+        "st_marker_id": "13335W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6122",
+        "lat": "-37.81952800191678",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944864549255,
+                -37.819528001917
+            ]
+        },
+        "lon": "144.9448645492551",
+        "st_marker_id": "C13592",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6148",
+        "lat": "-37.82000385320533",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943215411871,
+                -37.820003853205
+            ]
+        },
+        "lon": "144.94321541187122",
+        "st_marker_id": "C13696",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6120",
+        "lat": "-37.819502818231925",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944951343533,
+                -37.819502818232
+            ]
+        },
+        "lon": "144.94495134353332",
+        "st_marker_id": "C13584",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6250",
+        "lat": "-37.81918378673609",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947323948854,
+                -37.819183786736
+            ]
+        },
+        "lon": "144.94732394885384",
+        "st_marker_id": "13404E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6188",
+        "lat": "-37.82012737723583",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.942487780507,
+                -37.820127377236
+            ]
+        },
+        "lon": "144.9424877805074",
+        "st_marker_id": "13266N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6288",
+        "lat": "-37.81943429806772",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948634835125,
+                -37.819434298068
+            ]
+        },
+        "lon": "144.9486348351249",
+        "st_marker_id": "13454E",
+        "status": "Present"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6627",
+        "lat": "-37.81368627735124",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.941958450802,
+                -37.813686277351
+            ]
+        },
+        "lon": "144.94195845080156",
+        "st_marker_id": "13915W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6309",
+        "lat": "-37.81981416605073",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.949885833992,
+                -37.819814166051
+            ]
+        },
+        "lon": "144.949885833992",
+        "st_marker_id": "13375W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6079",
+        "lat": "-37.81892784362029",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947279077503,
+                -37.81892784362
+            ]
+        },
+        "lon": "144.9472790775032",
+        "st_marker_id": "13223S",
+        "status": "Present"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6483",
+        "lat": "-37.81556557417046",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.936865048531,
+                -37.81556557417
+            ]
+        },
+        "lon": "144.9368650485306",
+        "st_marker_id": "13711W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6421",
+        "lat": "-37.82103901739355",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945430853884,
+                -37.821039017394
+            ]
+        },
+        "lon": "144.94543085388358",
+        "st_marker_id": "13668E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6197",
+        "lat": "-37.82052059935896",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947205923834,
+                -37.820520599359
+            ]
+        },
+        "lon": "144.94720592383425",
+        "st_marker_id": "13307W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "7049",
+        "lat": "-37.81950529255448",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.949472257684,
+                -37.819505292554
+            ]
+        },
+        "lon": "144.9494722576837",
+        "st_marker_id": "13285S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6648",
+        "lat": "-37.81936983578525",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943605479654,
+                -37.819369835785
+            ]
+        },
+        "lon": "144.94360547965408",
+        "st_marker_id": "13624E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6247",
+        "lat": "-37.822240565681255",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.946761080466,
+                -37.822240565681
+            ]
+        },
+        "lon": "144.94676108046633",
+        "st_marker_id": "13312N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6543",
+        "lat": "-37.813489844897134",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.9392686326,
+                -37.813489844897
+            ]
+        },
+        "lon": "144.93926863259958",
+        "st_marker_id": "13747W",
+        "status": "Present"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6139",
+        "lat": "-37.819920121793004",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943503323647,
+                -37.819920121793
+            ]
+        },
+        "lon": "144.94350332364704",
+        "st_marker_id": "C13660",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6455",
+        "lat": "-37.819673378409064",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.942656965409,
+                -37.819673378409
+            ]
+        },
+        "lon": "144.94265696540896",
+        "st_marker_id": "13586E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6087",
+        "lat": "-37.82002166320028",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943473219367,
+                -37.8200216632
+            ]
+        },
+        "lon": "144.94347321936715",
+        "st_marker_id": "13239S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6222",
+        "lat": "-37.81819067770749",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.946459953119,
+                -37.818190677707
+            ]
+        },
+        "lon": "144.94645995311902",
+        "st_marker_id": "13322E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6283",
+        "lat": "-37.8191641341279",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948624540277,
+                -37.819164134128
+            ]
+        },
+        "lon": "144.94862454027674",
+        "st_marker_id": "13444E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6237",
+        "lat": "-37.8156763899618",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945350593345,
+                -37.815676389962
+            ]
+        },
+        "lon": "144.9453505933454",
+        "st_marker_id": "13352E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6037",
+        "lat": "-37.821119165074585",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.942951350975,
+                -37.821119165075
+            ]
+        },
+        "lon": "144.94295135097482",
+        "st_marker_id": "13085S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6019",
+        "lat": "-37.82120139775914",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947089794793,
+                -37.821201397759
+            ]
+        },
+        "lon": "144.94708979479256",
+        "st_marker_id": "13037S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6190",
+        "lat": "-37.82016441447789",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.942359713459,
+                -37.820164414478
+            ]
+        },
+        "lon": "144.94235971345913",
+        "st_marker_id": "13270N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6568",
+        "lat": "-37.81302284893166",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.939333650394,
+                -37.813022848932
+            ]
+        },
+        "lon": "144.9393336503942",
+        "st_marker_id": "13832N",
+        "status": "Present"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6754",
+        "lat": "-37.821354198288944",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944679501107,
+                -37.821354198289
+            ]
+        },
+        "lon": "144.9446795011073",
+        "st_marker_id": "13092N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6760",
+        "lat": "-37.82088566471708",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944165483993,
+                -37.820885664717
+            ]
+        },
+        "lon": "144.94416548399266",
+        "st_marker_id": "13103W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6076",
+        "lat": "-37.81887572435093",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947457700324,
+                -37.818875724351
+            ]
+        },
+        "lon": "144.94745770032426",
+        "st_marker_id": "13217S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6207",
+        "lat": "-37.81974853491796",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.946908807625,
+                -37.819748534918
+            ]
+        },
+        "lon": "144.94690880762465",
+        "st_marker_id": "13327W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6089",
+        "lat": "-37.82006030630913",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943340493597,
+                -37.820060306309
+            ]
+        },
+        "lon": "144.94334049359725",
+        "st_marker_id": "13245S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6381",
+        "lat": "-37.819033330961446",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944315057471,
+                -37.819033330961
+            ]
+        },
+        "lon": "144.94431505747133",
+        "st_marker_id": "13632E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6587",
+        "lat": "-37.81328048993435",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.940770117987,
+                -37.813280489934
+            ]
+        },
+        "lon": "144.94077011798743",
+        "st_marker_id": "13783W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6133",
+        "lat": "-37.81969020326326",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944301386882,
+                -37.819690203263
+            ]
+        },
+        "lon": "144.94430138688216",
+        "st_marker_id": "C13636",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6350",
+        "lat": "-37.82140637003466",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.950478668238,
+                -37.821406370035
+            ]
+        },
+        "lon": "144.9504786682375",
+        "st_marker_id": "13277S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6405",
+        "lat": "-37.82059761898381",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945560420164,
+                -37.820597618984
+            ]
+        },
+        "lon": "144.94556042016393",
+        "st_marker_id": "13646E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6493",
+        "lat": "-37.81586154047779",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.937450449933,
+                -37.815861540478
+            ]
+        },
+        "lon": "144.93745044993324",
+        "st_marker_id": "13828N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6322",
+        "lat": "-37.821363748661895",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.951106009205,
+                -37.821363748662
+            ]
+        },
+        "lon": "144.95110600920546",
+        "st_marker_id": "13401W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6609",
+        "lat": "-37.81438229462833",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.940864125618,
+                -37.814382294628
+            ]
+        },
+        "lon": "144.94086412561757",
+        "st_marker_id": "13847S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6657",
+        "lat": "-37.819827961397564",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.948650638178,
+                -37.819827961398
+            ]
+        },
+        "lon": "144.94865063817767",
+        "st_marker_id": "13396E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6759",
+        "lat": "-37.82094549175062",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944194025678,
+                -37.820945491751
+            ]
+        },
+        "lon": "144.9441940256781",
+        "st_marker_id": "13101W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6172",
+        "lat": "-37.81942611349134",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944903428799,
+                -37.819426113491
+            ]
+        },
+        "lon": "144.94490342879857",
+        "st_marker_id": "13234N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6373",
+        "lat": "-37.8203624747225",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944026271268,
+                -37.820362474722
+            ]
+        },
+        "lon": "144.94402627126837",
+        "st_marker_id": "13604E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6066",
+        "lat": "-37.82095614688842",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943013397381,
+                -37.820956146888
+            ]
+        },
+        "lon": "144.94301339738053",
+        "st_marker_id": "13054N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6588",
+        "lat": "-37.81322758559355",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.94073826785,
+                -37.813227585594
+            ]
+        },
+        "lon": "144.94073826784955",
+        "st_marker_id": "13785W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6583",
+        "lat": "-37.81239846012578",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.940980663869,
+                -37.812398460126
+            ]
+        },
+        "lon": "144.94098066386897",
+        "st_marker_id": "13862N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6389",
+        "lat": "-37.81996243486995",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944289,
+                -37.81996243487
+            ]
+        },
+        "lon": "144.94428899999997",
+        "st_marker_id": "13641W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6428",
+        "lat": "-37.82051140418841",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.946094712661,
+                -37.820511404188
+            ]
+        },
+        "lon": "144.94609471266074",
+        "st_marker_id": "13683W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6432",
+        "lat": "-37.82026695743224",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.946030337803,
+                -37.820266957432
+            ]
+        },
+        "lon": "144.9460303378025",
+        "st_marker_id": "13691W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6016",
+        "lat": "-37.82055577041538",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.949321902037,
+                -37.820555770415
+            ]
+        },
+        "lon": "144.94932190203687",
+        "st_marker_id": "13031S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6228",
+        "lat": "-37.81668191268675",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945793792342,
+                -37.816681912687
+            ]
+        },
+        "lon": "144.9457937923421",
+        "st_marker_id": "13334E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6235",
+        "lat": "-37.81578967988276",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.94540062733,
+                -37.815789679883
+            ]
+        },
+        "lon": "144.9454006273299",
+        "st_marker_id": "13348E",
+        "status": "Present"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6125",
+        "lat": "-37.81955547943744",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944769359315,
+                -37.819555479437
+            ]
+        },
+        "lon": "144.94476935931513",
+        "st_marker_id": "C13604",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6537",
+        "lat": "-37.81331527069149",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.939281568376,
+                -37.813315270691
+            ]
+        },
+        "lon": "144.9392815683758",
+        "st_marker_id": "13776E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6643",
+        "lat": "-37.81963127323259",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.94372543967,
+                -37.819631273233
+            ]
+        },
+        "lon": "144.94372543966972",
+        "st_marker_id": "13614E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6195",
+        "lat": "-37.8206795643909",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947247557821,
+                -37.820679564391
+            ]
+        },
+        "lon": "144.94724755782056",
+        "st_marker_id": "13303W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6491",
+        "lat": "-37.815791428697494",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.937634776855,
+                -37.815791428697
+            ]
+        },
+        "lon": "144.93763477685485",
+        "st_marker_id": "13824N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6114",
+        "lat": "-37.81935188276865",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945473048891,
+                -37.819351882769
+            ]
+        },
+        "lon": "144.94547304889073",
+        "st_marker_id": "C13552",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6023",
+        "lat": "-37.82128409413096",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.946803336513,
+                -37.821284094131
+            ]
+        },
+        "lon": "144.94680333651272",
+        "st_marker_id": "13045S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6257",
+        "lat": "-37.819782786109386",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947961456815,
+                -37.819782786109
+            ]
+        },
+        "lon": "144.94796145681474",
+        "st_marker_id": "13418E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6640",
+        "lat": "-37.81944630805836",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943478773117,
+                -37.819446308058
+            ]
+        },
+        "lon": "144.9434787731168",
+        "st_marker_id": "13621W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6184",
+        "lat": "-37.81991234380873",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943223699952,
+                -37.819912343809
+            ]
+        },
+        "lon": "144.94322369995194",
+        "st_marker_id": "13258N",
+        "status": "Present"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6293",
+        "lat": "-37.82010913885051",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.94866103035,
+                -37.820109138851
+            ]
+        },
+        "lon": "144.94866103034983",
+        "st_marker_id": "13464E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6211",
+        "lat": "-37.82024227466803",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947316446908,
+                -37.820242274668
+            ]
+        },
+        "lon": "144.94731644690785",
+        "st_marker_id": "13300E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6203",
+        "lat": "-37.82005521714977",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947043020461,
+                -37.82005521715
+            ]
+        },
+        "lon": "144.94704302046125",
+        "st_marker_id": "13319W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6524",
+        "lat": "-37.81229729732963",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.936128212438,
+                -37.81229729733
+            ]
+        },
+        "lon": "144.93612821243798",
+        "st_marker_id": "13723W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6071",
+        "lat": "-37.81874120184441",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.94792711076,
+                -37.818741201844
+            ]
+        },
+        "lon": "144.94792711076047",
+        "st_marker_id": "13207S",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6170",
+        "lat": "-37.81938963907055",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945029312131,
+                -37.819389639071
+            ]
+        },
+        "lon": "144.9450293121314",
+        "st_marker_id": "13230N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6192",
+        "lat": "-37.820201470670746",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.942231688046,
+                -37.820201470671
+            ]
+        },
+        "lon": "144.94223168804564",
+        "st_marker_id": "13274N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6102",
+        "lat": "-37.81922796888642",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945902601698,
+                -37.819227968886
+            ]
+        },
+        "lon": "144.94590260169764",
+        "st_marker_id": "C13504",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6142",
+        "lat": "-37.819944311871296",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.943420148507,
+                -37.819944311871
+            ]
+        },
+        "lon": "144.94342014850724",
+        "st_marker_id": "C13672",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6622",
+        "lat": "-37.81392422823941",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.941894676124,
+                -37.813924228239
+            ]
+        },
+        "lon": "144.94189467612432",
+        "st_marker_id": "13876N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6411",
+        "lat": "-37.81991683920843",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945384239163,
+                -37.819916839208
+            ]
+        },
+        "lon": "144.94538423916293",
+        "st_marker_id": "13658E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6422",
+        "lat": "-37.8209831564256",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945415847024,
+                -37.820983156426
+            ]
+        },
+        "lon": "144.9454158470241",
+        "st_marker_id": "13670E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6208",
+        "lat": "-37.814823587375116",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945331375444,
+                -37.814823587375
+            ]
+        },
+        "lon": "144.9453313754436",
+        "st_marker_id": "13278N",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6215",
+        "lat": "-37.81993516713928",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.947190042579,
+                -37.819935167139
+            ]
+        },
+        "lon": "144.947190042579",
+        "st_marker_id": "13308E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6226",
+        "lat": "-37.81679386767446",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945843226769,
+                -37.816793867674
+            ]
+        },
+        "lon": "144.94584322676855",
+        "st_marker_id": "13330E",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6397",
+        "lat": "-37.82049199547937",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945438163487,
+                -37.820491995479
+            ]
+        },
+        "lon": "144.94543816348676",
+        "st_marker_id": "13647W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6415",
+        "lat": "-37.82122289986236",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.945382640295,
+                -37.821222899862
+            ]
+        },
+        "lon": "144.94538264029478",
+        "st_marker_id": "13663W",
+        "status": "Unoccupied"
+    },
+    {
+        ":@computed_region_evbi_jbp8": "1",
+        "bay_id": "6121",
+        "lat": "-37.81951188466047",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                144.944920089991,
+                -37.81951188466
+            ]
+        },
+        "lon": "144.94492008999055",
+        "st_marker_id": "C13588",
+        "status": "Unoccupied"
+    }
+]
