@@ -9,7 +9,7 @@ var carpark = require('../controllers/carpark.js')
 router.get('/', home.index)
 
 //search
-router.get('/search', search.index)
+router.get('/search/:query', search.show)
 router.post('/search', search.store)
 
 //carpark

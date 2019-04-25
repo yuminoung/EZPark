@@ -1,7 +1,7 @@
 {
   "name": "ezpark",
   "version": "1.0.0",
-  "description": "Web application to help drivers to find street car park in Melbourne CBD",
+  "description": "Web application to help drivers to find street parkings in Melbourne CBD",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -22,7 +22,8 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "mongoose": "^5.5.1",
-    "node-fetch": "^2.3.0"
+    "node-fetch": "^2.3.0",
+    "pug": "^2.0.3"
   },
   "devDependencies": {
     "nodemon": "^1.18.10"

@@ -6,6 +6,11 @@ var bodyParser = require('body-parser')
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 
+app.set('views', './views')
+//use pug template engine
+app.set('view engine', 'pug')
+
+
 //connect to database
 require('./models/db.js')
 
