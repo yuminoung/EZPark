@@ -1,14 +1,14 @@
 const express = require('express')
+const path = require('path')
+const bodyParser = require('body-parser')
 const app = express()
 
-//body parser read data from POST
-var bodyParser = require('body-parser')
+
+app.use(express.static(path.join(__dirname, 'public')))
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
-
-app.set('views', './views')
-//use pug template engine
 app.set('view engine', 'pug')
+app.set('views', './views')
 
 
 //connect to database
