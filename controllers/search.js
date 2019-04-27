@@ -2,7 +2,6 @@
 const mongoose = require('mongoose')
 const Search = mongoose.model('Search')
 const path = require('path')
-// const public_path = path.join(__dirname, '../public/')
 const fetch = require('node-fetch')
 
 const carpark_api = 'https://data.melbourne.vic.gov.au/resource/dtpv-d4pf.json'
@@ -19,7 +18,6 @@ var show = function (req, res) {
     //step3: using the geo location from search result 
     //.......and the geolocation provided from carpark api, calculate the estimatedd distance
     //step4: store all data in json, render the data using pug template engine
-
 
     const map_api = mapbox_api + req.params.query + ".json?" + mapbox_token + mapbox_parameters;
     fetch(map_api)
@@ -64,7 +62,7 @@ var show = function (req, res) {
                         "features": carparks
                     }
 
-                    res.render('index', {
+                    res.render('search/result', {
                         carpark_collection: JSON.stringify(carpark_collection), place_name: JSON.stringify(place_name)
                     })
                 })
@@ -72,7 +70,11 @@ var show = function (req, res) {
 
 
         })
-        .catch(err => res.redirect('/no_result.html'))
+        .catch(err => {
+            res.render('search/no_result', {
+                query: req.params.query
+            })
+        })
 
 
 

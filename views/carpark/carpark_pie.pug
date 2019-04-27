@@ -1,0 +1,36 @@
+html
+    head
+        meta(charset='utf-8')
+        title Carpark Pie Chart
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js', type='text/javascript')
+        link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css')
+        script(defer='', src='https://use.fontawesome.com/releases/v5.3.1/js/all.js')
+        style.
+            body {
+            font-family: 'Roboto Mono', monospace;
+            }
+    body
+        section.section
+            .container
+                .columns
+                    .column.is-offset-one-quarter.is-half.has-text-centered
+                        h1 Carpark status: total !{total} carparks
+                        a(href='/') Go bank to home page
+                .columns
+                    .column.is-offset-one-quarter.is-half.has-text-centered
+                        canvas#myChart
+        script.
+            var ctx = document.getElementById('myChart').getContext('2d');
+            var myChart = new Chart(ctx, {
+            type: 'pie',
+            data: {
+            labels: ['Unoccupied','Occupied'],
+            datasets: [{
+            data: [!{unccu}, !{occu}],
+            backgroundColor: [
+            "rgba(153, 255, 51, 1)",
+            "rgba(167, 38, 35, 1)",
+            ]
+            }]
+            }
+            });
