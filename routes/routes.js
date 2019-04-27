@@ -6,6 +6,7 @@ var search = require('../controllers/search.js')
 var carpark = require('../controllers/carpark.js')
 var signup = require('../controllers/signup.js')
 var login = require('../controllers/login.js')
+var favourites = require("../controllers/favourites.js")
 
 //home
 router.get('/', home.index);
@@ -20,6 +21,9 @@ router.post('/search', search.store)
 //carpark
 router.get('/carpark', carpark.index)
 router.get('/carpark/:id', carpark.show)
+
+//favourites
+router.get('/favourites', favourites.show)
 
 module.exports = router
 

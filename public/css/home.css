@@ -19,3 +19,10 @@ body {
 .logo {
     height: 6.5rem;
 }
+
+.like {
+    font-size:66px;
+    color:#ccc;
+    cursor:pointer;
+}
+
