@@ -11,7 +11,6 @@ router.get('/', home.index)
 //search
 router.get('/search/:query', search.show)
 router.post('/search', search.store)
-router.get('/search/no_result', search)
 
 //carpark
 router.get('/carpark', carpark.index)
