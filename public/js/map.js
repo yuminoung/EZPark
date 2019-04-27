@@ -16,12 +16,15 @@ function createPopUp(currentFeature) {
     var popup = new mapboxgl.Popup({ closeOnClick: false })
         .setLngLat(currentFeature.geometry.coordinates)
         .setHTML('<h3>' + currentFeature.properties.id + '</h3>' +
-            '<h4>' + currentFeature.properties.status + '</h4>')
+            '<h4>' + currentFeature.properties.status + '<br>Estimated distance from your search result is ' + currentFeature.properties.distance + ' meters</h4>')
         .addTo(map);
 }
 
 
-function buildLocationList(data) {
+function buildLocationList(data, place_name) {
+
+    let list_heading = document.getElementById('place_name')
+    list_heading.innerHTML = place_name
     for (i = 0; i < data.features.length; i++) {
         // Create an array of all the stores and their properties
         var currentFeature = data.features[i];
@@ -43,7 +46,7 @@ function buildLocationList(data) {
         link.innerHTML = prop.id;
         var details = listing.appendChild(document.createElement('div'));
         details.innerHTML = prop.status;
-        details.innerHTML += ' · estimated ' + prop.distance + ' meters';
+        details.innerHTML += '<br>Estimated ' + prop.distance + ' meters';
         link.addEventListener('click', function (e) {
             // Update the currentFeature to the store associated with the clicked link
             var clickedListing = data.features[this.dataPosition];

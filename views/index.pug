@@ -1,24 +1,23 @@
-//ref: https://docs.mapbox.com/help/tutorials/building-a-store-locator/#define-interactivity-functions
-
+//ref: https://docs.mapbox.com/help/tutorials/building-a-store-locator/
 doctype html
 //
     144.974, -37.809
 html
     head
         script(src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js')
-        script(src='../js/map.js')
         link(href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css', rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css?family=Roboto+Mono', rel='stylesheet')
+        script(src='../js/map.js')
         link(rel='stylesheet', href='../css/map.css')
     body
         .sidebar
             .heading
-                h1 Carparks
+                h1#place_name Place_name
             #listings.listings
         #map.map
         script.
-           
             var carpark_collection = !{ carpark_collection }
-
+            var place_name = !{ place_name }
             mapboxgl.accessToken = 'pk.eyJ1IjoieXVtaW5vdW5nIiwiYSI6ImNqdXczOWVzazA4OXM0M2xhMHJ3amhyOWUifQ.EXLrlr49xL8WfBh5PAVWMw';
             // This adds the map to your page
             var map = new mapboxgl.Map({
@@ -36,7 +35,7 @@ html
 
             map.on('load', function (e) {
             // Add the data to your map as a layer
-            buildLocationList(carpark_collection);
+            buildLocationList(carpark_collection, place_name);
             map.addLayer({
             id: 'locations',
             type: 'symbol',

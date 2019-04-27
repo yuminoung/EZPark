@@ -2,14 +2,14 @@
 const mongoose = require('mongoose')
 const Search = mongoose.model('Search')
 const path = require('path')
-const public_path = path.join(__dirname, '../public/')
+// const public_path = path.join(__dirname, '../public/')
 const fetch = require('node-fetch')
 
 const carpark_api = 'https://data.melbourne.vic.gov.au/resource/dtpv-d4pf.json'
 const mapbox_api = "https://api.mapbox.com/geocoding/v5/mapbox.places/"
 const mapbox_token = "access_token=pk.eyJ1IjoieXVtaW5vdW5nIiwiYSI6ImNqdXczOWVzazA4OXM0M2xhMHJ3amhyOWUifQ.EXLrlr49xL8WfBh5PAVWMw"
-const mapbox_parameters = "&limit=1&country=AU"
-
+//limit search result to 1 and australia
+const mapbox_parameters = "&proximity=144.953,-37.817&limit=1&country=AU"
 
 //show user search result
 var show = function (req, res) {
@@ -20,11 +20,14 @@ var show = function (req, res) {
     //.......and the geolocation provided from carpark api, calculate the estimatedd distance
     //step4: store all data in json, render the data using pug template engine
 
+
     const map_api = mapbox_api + req.params.query + ".json?" + mapbox_token + mapbox_parameters;
     fetch(map_api)
         .then(res => res.json())
         .then(result => {
-            var coordinates = result['features'][0]['geometry']['coordinates'];
+
+            var coordinates = result['features'][0]['geometry']['coordinates']
+            var place_name = result['features'][0]['place_name']
 
             fetch(carpark_api)
                 .then(res => res.json())
@@ -61,7 +64,9 @@ var show = function (req, res) {
                         "features": carparks
                     }
 
-                    res.render('index', { carpark_collection: JSON.stringify(carpark_collection) })
+                    res.render('index', {
+                        carpark_collection: JSON.stringify(carpark_collection), place_name: JSON.stringify(place_name)
+                    })
                 })
                 .catch(err => console.log(err))
 
