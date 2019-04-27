@@ -1,0 +1,21 @@
+.title {
+    font-family: 'Lobster', cursive;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+/*#00255d*/
+
+.message-header {
+    background-color: #00255d;
+}
+
+.button {
+    color: #00255d;
+}
+
+.logo {
+    height: 6.5rem;
+}

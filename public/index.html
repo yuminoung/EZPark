@@ -9,93 +9,83 @@
     <!-- this is a css framework, bulma.io-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <!-- this is the font i use for our ezpark logo-->
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <!-- monospace font, width of every characters are the same-->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-
-    <style>
-        .title {
-            font-family: 'Lobster', cursive;
-        }
-
-        body {
-            font-family: 'Roboto Mono', monospace;
-        }
-    </style>
+    <link rel="stylesheet" href="css/home.css">
 </head>
 
 <body>
     <section class="section">
         <div class="container">
 
-            <h1 class="title has-text-centered">
-                EzPark
-            </h1>
 
             <div class="columns">
-                <div class="column is-offset-one-quarter is-half">
-                    <form action="/search" method="POST">
+                <div class="column is-offset-one-quarter is-half has-text-centered">
+                    <img class="logo" src="../img/logo.jpg" alt="tset"">
+                </div>
+            </div>
 
-                        <div class="field has-addons">
-                            <div class="control is-expanded">
-                                <input class="input is-medium" name="search" type="text" placeholder="Search carpark">
+            <div class=" columns">
+                    <div class="column is-offset-one-quarter is-half">
+                        <form action="/search" method="POST">
+
+                            <div class="field has-addons">
+                                <div class="control is-expanded">
+                                    <input class="input is-medium" name="search" type="text"
+                                        placeholder="Search carpark">
+                                </div>
+                                <div class="control">
+                                    <button class="button is-medium">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </div>
                             </div>
-                            <div class="control">
-                                <button class="button is-medium">
-                                    <i class="fas fa-search"></i>
-                                </button>
+
+                        </form>
+                    </div>
+                </div>
+
+                <div class="columns">
+                    <div class="column is-offset-one-quarter is-half">
+
+
+                        <article class="message is-small">
+                            <div class="message-header">
+                                Save your favourite spot
                             </div>
-                        </div>
+                            <div class="message-body">
+                                <a class="button is-medium">Join us now!</a>
+                            </div>
+                        </article>
 
-                    </form>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column is-offset-one-quarter is-half">
+
+                        <article class="message is-small">
+                            <div class="message-header">
+                                Routes
+                            </div>
+                            <div class="message-body">
+                                <ul>
+                                    <li><strong>Home</strong></li>
+                                    <li>&nbsp;&nbsp;GET &nbsp;<a href="/">/</a></li>
+                                    <li>&nbsp;</li>
+                                    <li><strong>Carpark</strong></li>
+                                    <li>&nbsp;&nbsp;GET &nbsp;<a href="/carpark">/carpark</a></li>
+                                    <li>&nbsp;&nbsp;GET &nbsp;<a href="/carpark/5583">/carpark/id</a></li>
+                                    <li>&nbsp;</li>
+                                    <li><strong>Search</strong></li>
+                                    <li>&nbsp;&nbsp;GET &nbsp;<a href="/search">/search</a></li>
+                                    <li>&nbsp;&nbsp;POST <a href="#">/search</a></li>
+                                </ul>
+                            </div>
+                        </article>
+
+                    </div>
                 </div>
             </div>
-
-            <div class="columns">
-                <div class="column is-offset-one-quarter is-half">
-
-
-                    <article class="message is-small">
-                        <div class="message-header">
-                            Recent search (todo: use pug to render html to show recent searches)
-                        </div>
-                        <div class="message-body">
-                            <ul>
-                                <li>Melbourne Central <span class="is-pulled-right">10 seconds ago</span></li>
-                                <li>Collin St <span class="is-pulled-right">1 hour ago</span></li>
-                            </ul>
-                        </div>
-                    </article>
-
-                </div>
-            </div>
-            <div class="columns">
-                <div class="column is-offset-one-quarter is-half">
-
-                    <article class="message is-small">
-                        <div class="message-header">
-                            Routes
-                        </div>
-                        <div class="message-body">
-                            <ul>
-                                <li><strong>Home</strong></li>
-                                <li>&nbsp;&nbsp;GET &nbsp;<a href="/">/</a></li>
-                                <li>&nbsp;</li>
-                                <li><strong>Carpark</strong></li>
-                                <li>&nbsp;&nbsp;GET &nbsp;<a href="/carpark">/carpark</a></li>
-                                <li>&nbsp;&nbsp;GET &nbsp;<a href="/carpark/5583">/carpark/id</a></li>
-                                <li>&nbsp;</li>
-                                <li><strong>Search</strong></li>
-                                <li>&nbsp;&nbsp;GET &nbsp;<a href="/search">/search</a></li>
-                                <li>&nbsp;&nbsp;POST <a href="#">/search</a></li>
-                            </ul>
-                        </div>
-                    </article>
-
-                </div>
-            </div>
-        </div>
     </section>
 
 

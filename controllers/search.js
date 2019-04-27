@@ -67,7 +67,7 @@ var show = function (req, res) {
 
 
         })
-        .catch(err => console.log(err))
+        .catch(err => res.redirect('/no_result.html'))
 
 
 

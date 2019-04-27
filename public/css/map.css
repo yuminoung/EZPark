@@ -78,7 +78,7 @@ a:hover {
 
 .listings .item .title {
     display: block;
-    color: #00853e;
+    color: #00255d;
     font-weight: 700;
 }
 
@@ -107,7 +107,7 @@ a:hover {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #00853e;
+    background: #00255d;
     border-radius: 0;
 }
 
