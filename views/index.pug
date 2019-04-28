@@ -1,49 +1,42 @@
+//ref: https://docs.mapbox.com/help/tutorials/building-a-store-locator/#define-interactivity-functions
+
 doctype html
 //
     144.974, -37.809
 html
     head
         script(src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js')
-        link(href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css', rel='stylesheet')
-        link(href='https://fonts.googleapis.com/css?family=Roboto+Mono', rel='stylesheet')
         script(src='../js/map.js')
+        link(href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css', rel='stylesheet')
         link(rel='stylesheet', href='../css/map.css')
     body
         .sidebar
             .heading
-                h1#place_name Place_name
+                h1 Carparks
             #listings.listings
         #map.map
         script.
-            //ref: https://docs.mapbox.com/help/tutorials/building-a-store-locator/
-            //these scripts are reference to the mapbox api, locator tutorial
-
-            // variables rendered from search.js using pug
-            // carpark colletion contains lat, lon, id and status of every carpark
+           
             var carpark_collection = !{ carpark_collection }
 
-            // the address of highest relevance result from user search input
-            var place_name = !{ place_name }
-
-            //setup map using accesstoken
             mapboxgl.accessToken = 'pk.eyJ1IjoieXVtaW5vdW5nIiwiYSI6ImNqdXczOWVzazA4OXM0M2xhMHJ3amhyOWUifQ.EXLrlr49xL8WfBh5PAVWMw';
-            
-            // add the map to page
+            // This adds the map to your page
             var map = new mapboxgl.Map({
             // container id specified in the HTML
             container: 'map',
-            // map style provided by mapbox
+            // style URL
             style: 'mapbox://styles/mapbox/light-v10',
-            // initial position in [lon, lat] set Melbourne CBD
+            // initial position in [lon, lat] format
             center: [144.953, -37.817],
+            // -37.817160,144.953210
             // initial zoom
             zoom: 14
             });
 
+
             map.on('load', function (e) {
             // Add the data to your map as a layer
-            // build sidebar result list from nearest to furthest
-            buildLocationList(carpark_collection, place_name);
+            buildLocationList(carpark_collection);
             map.addLayer({
             id: 'locations',
             type: 'symbol',
@@ -74,7 +67,7 @@ html
             if (activeItem[0]) {
             activeItem[0].classList.remove('active');
             }
-            // Find the index of the carpark.features that corresponds to the clickedPoint that fired the event listener
+            // Find the index of the store.features that corresponds to the clickedPoint that fired the event listener
             var selectedFeature = clickedPoint.properties.address;
 
             for (var i = 0; i < carpark_collection.features.length; i++) {
@@ -87,4 +80,6 @@ html
             listing.classList.add('active');
             }
             });
+
+
             

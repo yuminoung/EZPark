@@ -1,16 +1,19 @@
 // Search Controller
 const mongoose = require('mongoose')
 const Search = mongoose.model('Search')
+const path = require('path')
+const public_path = path.join(__dirname, '../public/')
 const fetch = require('node-fetch')
 
 const carpark_api = 'https://data.melbourne.vic.gov.au/resource/dtpv-d4pf.json'
 const mapbox_api = "https://api.mapbox.com/geocoding/v5/mapbox.places/"
 const mapbox_token = "access_token=pk.eyJ1IjoieXVtaW5vdW5nIiwiYSI6ImNqdXczOWVzazA4OXM0M2xhMHJ3amhyOWUifQ.EXLrlr49xL8WfBh5PAVWMw"
-//limit search result to 1, australia and nearest to Melbourne CBD
-const mapbox_parameters = "&proximity=144.953,-37.817&limit=1&country=AU"
+const mapbox_parameters = "&limit=1&country=AU"
+
 
 //show user search result
 var show = function (req, res) {
+
     //step1: convert user search location into geo location using mapbox api
     //step2: get all the carparks from melbourne data api
     //step3: using the geo location from search result 
@@ -21,9 +24,8 @@ var show = function (req, res) {
     fetch(map_api)
         .then(res => res.json())
         .then(result => {
+            var coordinates = result['features'][0]['geometry']['coordinates'];
 
-            var coordinates = result['features'][0]['geometry']['coordinates']
-            var place_name = result['features'][0]['place_name']
             fetch(carpark_api)
                 .then(res => res.json())
                 .then(json => {
@@ -59,72 +61,39 @@ var show = function (req, res) {
                         "features": carparks
                     }
 
-                    res.render('search/result', {
-                        carpark_collection: JSON.stringify(carpark_collection), place_name: JSON.stringify(place_name)
-                    })
+                    res.render('index', { carpark_collection: JSON.stringify(carpark_collection) })
                 })
                 .catch(err => console.log(err))
+
+
         })
-        .catch(err => {
-            res.redirect('../search/' + req.params.query + '/no_result')
-        })
+        .catch(err => res.redirect('/no_result.html'))
+
+
+
 }
 
 
-// return no result page when mapbox cant find a address
-var noresult = function (req, res) {
-    res.render('search/no_result', {
-        query: req.params.query
+//save search to mongodb
+var store = function (req, res) {
+    var search = new Search({
+        search: req.body.search
+    })
+    search.save(function (err) {
+        if (err) {
+            res.send('error')
+        } else {
+            res.redirect('/search/' + req.body.search)
+        }
     })
 }
 
-// save most relavent search placename to mongodb and increment the search count
-var store = function (req, res) {
-    const map_api = mapbox_api + req.body.search + ".json?" + mapbox_token + mapbox_parameters;
-    fetch(map_api)
-        .then(res => res.json())
-        .then(result => {
-            var place_name = result['features'][0]['place_name']
-            //if exists increment search count by one, else save new search
-            Search.findOneAndUpdate(
-                { place_name: place_name },
-                { $inc: { search_count: 1 } },
-                { new: true, useFindAndModify: false },
-                function (err, result) {
-                    if (err) { console.log('some error') }
-
-                    //cant find the place, add new place to db
-                    if (!result) {
-                        var search = new Search({
-                            query: req.body.search,
-                            place_name: place_name,
-                            search_count: 1,
-                        })
-                        search.save(function (err) {
-                            if (err) { res.send('error') }
-                        })
-                    }
-                })
-            res.redirect('/search/' + req.body.search)
-
-        })
-        .catch(err => {
-            res.redirect('search/' + req.body.search + '/no_result')
-        })
-
-
-}
-
-// helper function: convert degree to radian
+// helper function to calculate distance between two geo locations
+// ref: https://stackoverflow.com/questions/365826/calculate-distance-between-2-gps-coordinates
 function degreesToRadians(degrees) {
     return degrees * Math.PI / 180;
 }
 
-// helper function: calculate distance between two geo locations
-// finding real distance between 2 locations is difficult
-// because we have many carparks to the location
-// so making hundreds of api calls to the mapbox is not a good option
-// ref: https://stackoverflow.com/questions/365826/calculate-distance-between-2-gps-coordinates
 function distanceInMeters(lat1, lon1, lat2, lon2) {
     var earthRadiusKm = 6371;
 
@@ -142,4 +111,3 @@ function distanceInMeters(lat1, lon1, lat2, lon2) {
 
 module.exports.store = store
 module.exports.show = show
-module.exports.noresult = noresult
