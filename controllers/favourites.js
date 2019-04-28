@@ -1,6 +1,6 @@
 // Favourite Controller
 const mongoose = require('mongoose')
-const Search = mongoose.model('Favourites')
+// const Search = mongoose.model('Favourites')
 const path = require('path')
 const public_path = path.join(__dirname, '../public/')
 
