@@ -1,5 +1,5 @@
 
-
+// a function to zoom the location and animate to a given carpark
 function flyToCarpark(currentFeature) {
     map.flyTo({
         center: currentFeature.geometry.coordinates,
@@ -20,7 +20,7 @@ function createPopUp(currentFeature) {
         .addTo(map);
 }
 
-
+// build a list of carparks from the sidebar
 function buildLocationList(data, place_name) {
 
     let list_heading = document.getElementById('place_name')
@@ -48,7 +48,7 @@ function buildLocationList(data, place_name) {
         details.innerHTML = prop.status;
         details.innerHTML += '<br>Estimated ' + prop.distance + ' meters';
         link.addEventListener('click', function (e) {
-            // Update the currentFeature to the store associated with the clicked link
+            // Update the currentFeature to the carpark associated with the clicked link
             var clickedListing = data.features[this.dataPosition];
             // 1. Fly to the point associated with the clicked link
             flyToCarpark(clickedListing);

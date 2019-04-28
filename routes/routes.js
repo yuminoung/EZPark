@@ -16,6 +16,7 @@ router.get('/login', login.index);
 
 
 //search
+router.get('/search/:query/no_result', search.noresult)
 router.get('/search/:query', search.show)
 router.post('/search', search.store)
 
@@ -26,8 +27,8 @@ router.get('/carpark/:id', carpark.show)
 //handle 404 page not found
 router.get('*', error.index);
 
-//favourites
-router.get('/favourites', favourites.show)
+// //favourites
+// router.get('/favourites', favourites.show)
 
 module.exports = router
 

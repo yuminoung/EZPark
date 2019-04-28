@@ -64,30 +64,55 @@ var show = function (req, res) {
                     })
                 })
                 .catch(err => console.log(err))
-
-
         })
         .catch(err => {
-            res.render('search/no_result', {
-                query: req.params.query
-            })
+            res.redirect('../search/' + req.params.query + '/no_result')
         })
-
 }
 
 
-//save search to mongodb
+// return no result page when mapbox cant find a address
+var noresult = function (req, res) {
+    res.render('search/no_result', {
+        query: req.params.query
+    })
+}
+
+// save most relavent search placename to mongodb and increment the search count
 var store = function (req, res) {
-    var search = new Search({
-        search: req.body.search
-    })
-    search.save(function (err) {
-        if (err) {
-            res.send('error')
-        } else {
+    const map_api = mapbox_api + req.body.search + ".json?" + mapbox_token + mapbox_parameters;
+    fetch(map_api)
+        .then(res => res.json())
+        .then(result => {
+            var place_name = result['features'][0]['place_name']
+            //if exists increment search count by one, else save new search
+            Search.findOneAndUpdate(
+                { place_name: place_name },
+                { $inc: { search_count: 1 } },
+                { new: true, useFindAndModify: false },
+                function (err, result) {
+                    if (err) { console.log('some error') }
+
+                    //cant find the place, add new place to db
+                    if (!result) {
+                        var search = new Search({
+                            query: req.body.search,
+                            place_name: place_name,
+                            search_count: 1,
+                        })
+                        search.save(function (err) {
+                            if (err) { res.send('error') }
+                        })
+                    }
+                })
             res.redirect('/search/' + req.body.search)
-        }
-    })
+
+        })
+        .catch(err => {
+            res.redirect('search/' + req.body.search + '/no_result')
+        })
+
+
 }
 
 // helper function: convert degree to radian
@@ -117,3 +142,4 @@ function distanceInMeters(lat1, lon1, lat2, lon2) {
 
 module.exports.store = store
 module.exports.show = show
+module.exports.noresult = noresult
