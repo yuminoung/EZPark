@@ -21,6 +21,12 @@ router.post('/search', search.store)
 router.get('/carpark', carpark.index)
 router.get('/carpark/:id', carpark.show)
 
+
+//favourites
+router.get('/favourites', favourites.index)
+
+//handle 404 page not found
+router.get('*', error.index);
+
+
 module.exports = router
-
-
