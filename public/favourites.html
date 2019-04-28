@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EzPark_Favourites</title>
+
+    <!-- this is a css framework, bulma.io-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <!-- monospace font, width of every characters are the same-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+
+
+            <div class="columns">
+                <div class="column is-offset-one-quarter is-half has-text-centered">
+                    <img class="logo" src="../img/logo.jpg" alt="tset"">
+                </div>
+            </div>
+
+            <div class=" columns">
+                <div class="column is-offset-one-quarter is-half">
+                    <form action="/search" method="POST">
+
+                        <div class="field has-addons">
+                            <div class="control is-expanded">
+                                <input class="input is-medium" name="search" type="text"
+                                       placeholder="Search favourites">
+                            </div>
+                            <div class="control">
+                                <button class="button is-medium">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        <div class="columns">
+            <div class="column is-offset-one-quarter is-half">
+
+
+                <article class="message is-small">
+                    <div class="message-header">
+                        Your favourite spot:
+                    </div>
+                    <div class="message-body">
+                        <a class="button is-medium">
+                            favourite spot123
+                            <p class="favourite_icon">&#10084;</p>
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+</body>
+
+</html>
