@@ -1,18 +1,16 @@
 // Search Controller
 const mongoose = require('mongoose')
 const Search = mongoose.model('Search')
-const path = require('path')
 const fetch = require('node-fetch')
 
 const carpark_api = 'https://data.melbourne.vic.gov.au/resource/dtpv-d4pf.json'
 const mapbox_api = "https://api.mapbox.com/geocoding/v5/mapbox.places/"
 const mapbox_token = "access_token=pk.eyJ1IjoieXVtaW5vdW5nIiwiYSI6ImNqdXczOWVzazA4OXM0M2xhMHJ3amhyOWUifQ.EXLrlr49xL8WfBh5PAVWMw"
-//limit search result to 1 and australia
+//limit search result to 1, australia and nearest to Melbourne CBD
 const mapbox_parameters = "&proximity=144.953,-37.817&limit=1&country=AU"
 
 //show user search result
 var show = function (req, res) {
-
     //step1: convert user search location into geo location using mapbox api
     //step2: get all the carparks from melbourne data api
     //step3: using the geo location from search result 
@@ -26,7 +24,6 @@ var show = function (req, res) {
 
             var coordinates = result['features'][0]['geometry']['coordinates']
             var place_name = result['features'][0]['place_name']
-
             fetch(carpark_api)
                 .then(res => res.json())
                 .then(json => {
@@ -76,8 +73,6 @@ var show = function (req, res) {
             })
         })
 
-
-
 }
 
 
@@ -95,12 +90,16 @@ var store = function (req, res) {
     })
 }
 
-// helper function to calculate distance between two geo locations
-// ref: https://stackoverflow.com/questions/365826/calculate-distance-between-2-gps-coordinates
+// helper function: convert degree to radian
 function degreesToRadians(degrees) {
     return degrees * Math.PI / 180;
 }
 
+// helper function: calculate distance between two geo locations
+// finding real distance between 2 locations is difficult
+// because we have many carparks to the location
+// so making hundreds of api calls to the mapbox is not a good option
+// ref: https://stackoverflow.com/questions/365826/calculate-distance-between-2-gps-coordinates
 function distanceInMeters(lat1, lon1, lat2, lon2) {
     var earthRadiusKm = 6371;
 

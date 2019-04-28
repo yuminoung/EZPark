@@ -1,7 +1,7 @@
 //Error Controller
 
 
-//send homepage file
+//send 404 page not found file
 var index = function (req, res) {
     res.redirect('../404.html')
 }
