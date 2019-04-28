@@ -12,54 +12,70 @@
     <!-- monospace font, width of every characters are the same-->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <link rel="stylesheet" href="css/home.css">
+    <style>
+        .title {
+            color: #00255d;
+
+        }
+    </style>
 </head>
 
 <body>
-<section class="section">
-    <div class="container">
+    <section class="section">
+        <div class="container">
 
 
-        <div class="columns">
-            <div class="column is-offset-one-quarter is-half has-text-centered">
-                <img class="logo" src="img/logo.jpg" alt="tset"">
+            <div class="columns">
+                <div class="column is-offset-one-quarter is-half has-text-centered">
+                    <img class="logo" src="img/logo.jpg" alt="tset"">
             </div>
 
         </div>
 
-        <div class="columns">
-            <div class="column is-offset-one-quarter is-half has-text-centered">
-                <h1>Join Us Now!</h1>
-                <div class="field">
-                    <p class="control has-icons-left has-icons-right">
-                        <input class="input" type="email" placeholder="Email">
-                        <span class="icon is-small is-left">
-      <i class="fas fa-envelope"></i>
-    </span>
-                        <span class="icon is-small is-right">
-      <i class="fas fa-check"></i>
-    </span>
-                    </p>
-                </div>
-                <div class="field">
-                    <p class="control has-icons-left">
-                        <input class="input" type="password" placeholder="Password">
-                        <span class="icon is-small is-left">
-      <i class="fas fa-lock"></i>
-    </span>
-                    </p>
-                </div>
-                <div class="field">
-                    <p class="control">
-                        <button class="button is-success">
-                            Login
-                        </button>
-                    </p>
-                </div>
+        <div class=" columns">
+                    <div class="column is-offset-one-quarter is-half has-text-left">
+                        <h1 class="title has-text-weight-bold">Login</h1>
+                        <div class="field">
+                            <p class="control has-icons-left has-icons-right">
+                                <input class="input" type="email" placeholder="Email or Username">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                                <span class="icon is-small is-right">
+                                    <i class="fas fa-check"></i>
+                                </span>
+                            </p>
+                        </div>
+                        <br>
+                        <div class="field">
+                            <p class="control has-icons-left">
+                                <input class="input" type="password" placeholder="Password">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-lock"></i>
+                                </span>
+                            </p>
+                        </div>
+                        <br>
+                        <div>
+                            <p class="control has-text-centered">
+                                <button class="button is-link">
+                                    Login
+                                </button>
+                            </p>
+                            <br>
+                            <p class="control has-text-centered">
+                                <a class="button is-text">Forget your password?</a>
+                            </p>
+                            <p class="has-text-centered">
+                                <a class="button is-text" href="/signup">Register</a>
+                            </p>
 
-    </div>
+                        </div>
+
+                    </div>
 
 
-</section>
+    </section>
 
 
 </body>

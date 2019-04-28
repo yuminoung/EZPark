@@ -42,6 +42,7 @@ var show = function (req, res) {
 					status: JSON.stringify(json[0]['status']),
 					lat: JSON.stringify(json[0]['lat']),
 					lon: JSON.stringify(json[0]['lon']),
+					id: JSON.stringify(json[0]['bay_id'])
 				})
 		})
 		.catch(err => console.log(err))

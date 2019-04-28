@@ -12,6 +12,11 @@
     <!-- monospace font, width of every characters are the same-->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <link rel="stylesheet" href="css/home.css">
+    <style>
+        .fa-circle {
+            color: #00255d;
+        }
+    </style>
 </head>
 
 <body>
@@ -20,77 +25,64 @@
 
 
             <div class="columns">
-                <div class="column is-offset-one-quarter is-half has-text-centered">
-                    <img class="logo" src="../img/logo.jpg" alt="tset"">
+                <div class="column is-offset-half is-half has-text-centered">
+                    <a href="/login"><span class="fa-stack">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fas fa-user fa-stack-1x fa-inverse"></i>
+                        </span></a>
+
                 </div>
+            </div>
+            <div class="columns">
+                <div class="column is-offset-one-quarter is-half has-text-centered">
+                    <img class="logo" src="../img/logo.jpg" alt="tset">
+                </div>
+
+
             </div>
 
             <div class=" columns">
-                    <div class="column is-offset-one-quarter is-half">
-                        <form action="/search" method="POST">
+                <div class="column is-offset-one-quarter is-half">
+                    <form action="/search" method="POST">
 
-                            <div class="field has-addons">
-                                <div class="control is-expanded">
-                                    <input class="input is-medium" name="search" type="text"
-                                        placeholder="Search carpark">
-                                </div>
-                                <div class="control">
-                                    <button class="button is-medium">
-                                        <i class="fas fa-search"></i>
-                                    </button>
-                                </div>
+                        <div class="field has-addons">
+                            <div class="control is-expanded">
+                                <input class="input is-medium" name="search" type="text" placeholder="Search carpark">
                             </div>
-
-                        </form>
-                    </div>
-                </div>
-
-                <div class="columns">
-                    <div class="column is-offset-one-quarter is-half">
-
-
-                        <article class="message is-small">
-                            <div class="message-header">
-                                Save your favourite carpark
+                            <div class="control">
+                                <button class="button is-medium">
+                                    <i class="fas fa-search"></i>
+                                </button>
                             </div>
-                            <div class="message-body">
-                                <a class="button is-medium" href="/signup">Join us now!</a>
-                            </div>
-                        </article>
+                        </div>
 
-                    </div>
-                </div>
-                <div class="columns">
-                    <div class="column is-offset-one-quarter is-half">
-
-                        <article class="message is-small">
-                            <div class="message-header">
-                                Popular spots in Melbourne
-                            </div>
-                            <div class="message-body">
-                                <ul>
-                                    <li><strong>Home</strong></li>
-                                    <li>&nbsp;&nbsp;GET &nbsp;<a href="/">/</a></li>
-                                    <li>&nbsp;</li>
-                                    <li><strong>Carpark</strong></li>
-                                    <li>&nbsp;&nbsp;GET &nbsp;<a href="/carpark">/carpark</a></li>
-                                    <li>&nbsp;&nbsp;GET &nbsp;<a href="/carpark/5583">/carpark/id</a></li>
-                                    <li>&nbsp;</li>
-                                    <li><strong>Search</strong></li>
-                                    <li>&nbsp;&nbsp;GET &nbsp;<a href="/search">/search</a></li>
-                                    <li>&nbsp;&nbsp;POST <a href="#">/search</a></li>
-                                </ul>
-                            </div>
-                        </article>
-
-                    </div>
-                </div>
-                <div class="columns">
-                    <div class="column is-offset-one-quarter is-half has-text-centered">
-                        <h3 class="is-small">&copy; ezpark.com, <a href="/todo_list.html">our todo list</a></h3>
-                    </div>
+                    </form>
                 </div>
             </div>
+
+            <div class="columns">
+                <div class="column is-offset-one-quarter is-half">
+
+
+                    <article class="message is-small">
+                        <div class="message-header">
+                            Popular searches
+                        </div>
+                        <div class="message-body">
+                            Under construction
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="column is-offset-one-quarter is-half has-text-centered">
+                    &copy; ezpark.com, <a href="/todo_list.html">Our todo list</a>
+                </div>
+            </div>
+
+        </div>
     </section>
 
 

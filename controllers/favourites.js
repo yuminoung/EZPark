@@ -1,14 +1,13 @@
 // Favourite Controller
 // const mongoose = require('mongoose')
 // const Search = mongoose.model('Favourites')
-// const path = require('path')
-// const public_path = path.join(__dirname, '../public/')
 
 
-// //send users' favourites
-// var favourites = function (req, res) {
-//     res.sendFile(public_path + 'favourites.html')
-// }
+
+//send users' favourites
+var index = function (req, res) {
+    res.redirect('../favourites.html')
+}
 
 // //save favourites to mongodb
 // var addLike = function (req, res) {
@@ -24,7 +23,7 @@
 //     })
 // }
 
-// module.exports.favourites = favourites;
+module.exports.index = index;
 // module.exports.addLike = addLike;
 
 
