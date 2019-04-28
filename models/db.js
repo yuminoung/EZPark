@@ -19,4 +19,4 @@ mongoose.connect(dbURI, options).then(
 )
 
 require('./search.js')
-require('./favourites.js')
+// require('./favourites.js')

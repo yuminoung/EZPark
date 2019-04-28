@@ -23,7 +23,8 @@ router.get('/carpark', carpark.index)
 router.get('/carpark/:id', carpark.show)
 
 //favourites
-router.get('/favourites', favourites.show)
+router.get('/favourites', favourites.index)
+
 
 module.exports = router
 

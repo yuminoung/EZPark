@@ -1,5 +1,6 @@
 // favourite schema
 
+/*
 var mongoose = require('mongoose')
 
 var searchSchema = mongoose.Schema(
@@ -10,3 +11,5 @@ var searchSchema = mongoose.Schema(
 )
 
 mongoose.model('Favourites', favouritesSchema)
+
+*/

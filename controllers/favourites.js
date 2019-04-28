@@ -4,12 +4,12 @@ const Search = mongoose.model('Favourites')
 const path = require('path')
 const public_path = path.join(__dirname, '../public/')
 
-
 //send users' favourites
-var favourites = function (req, res) {
+var index = function (req, res) {
     res.sendFile(public_path + 'favourites.html')
 }
 
+/*
 //save favourites to mongodb
 var addLike = function (req, res) {
     var addLike = new addLike({
@@ -23,8 +23,9 @@ var addLike = function (req, res) {
         }
     })
 }
+*/
 
-module.exports.favourites = favourites;
-module.exports.addLike = addLike;
 
+module.exports.index = index;
+// module.exports.addLike = addLike;
 
