@@ -1,20 +1,11 @@
-$(document).ready(function() {
+//Userprofile Controller
 
+const path = require('path')
+const public_path = path.join(__dirname, '../public/')
 
-    var readURL = function(input) {
-        if (input.files && input.files[0]) {
-            var reader = new FileReader();
+//send homepage file
+var index = function (req, res) {
+    res.sendFile(public_path + 'userprofile.html')
+}
 
-            reader.onload = function (e) {
-                $('.avatar').attr('src', e.target.result);
-            }
-
-            reader.readAsDataURL(input.files[0]);
-        }
-    }
-
-
-    $(".file-upload").on('change', function(){
-        readURL(this);
-    });
-});
+module.exports.index = index;
