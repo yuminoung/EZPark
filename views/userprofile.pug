@@ -1,0 +1,91 @@
+link#bootstrap-css(href='//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css', rel='stylesheet')
+script(src='//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js')
+script(src='//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+// ---- Include the above in your HEAD tag --------
+link#bootstrap-css(href='//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css', rel='stylesheet')
+script(src='//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js')
+script(src='//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+// ---- Include the above in your HEAD tag --------
+title Bootstrap Example
+meta(charset='utf-8')
+meta(name='viewport', content='width=device-width, initial-scale=1')
+link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
+hr
+.container.bootstrap.snippet
+    .row
+        .col-md-auto
+            h1 User name
+        .col-sm-2
+            a.pull-right(href='/users')
+                img.img-circle.img-responsive(title='profile image', src='http://www.gravatar.com/avatar/28fd20ccec6865e2d5f0e1f4446eb7bf?s=100')
+    .row
+        .col-sm-12
+            // middle col
+            .text-center
+                img.avatar.img-circle.img-thumbnail(src='http://ssl.gstatic.com/accounts/ui/avatar_2x.png', alt='avatar')
+                h6 Upload a different photo...
+                input.text-center.center-block.file-upload(type='file')
+            br
+        // /col-3
+        .col-sm-12
+            ul.nav.nav-tabs
+                li.active
+                    a(data-toggle='tab') User Profile
+            .tab-content
+                #home.tab-pane.active
+                    hr
+                    form#registrationForm.form(action='##', method='post')
+                        .form-group
+                            .col-xs-6
+                                label(for='first_name')
+                                    h4 User Name
+                                input#first_name.form-control(type='text', name='first_name', placeholder='user name', title='enter your user name if any.')
+                        .form-group
+                            .col-xs-6
+                                label(for='user_id')
+                                    h4 User ID
+                                input#user_id.form-control(type='text', name='user_id', placeholder='user id', title='enter your last name if any.')
+                        .form-group
+                            .col-xs-6
+                                label(for='email')
+                                    h4 Email
+                                input#email.form-control(type='email', name='email', placeholder='you@email.com', title='enter your email.')
+                        .form-group
+                            .form-group
+                                .col-xs-6
+                                    label(for='mobile')
+                                        h4 Mobile
+                                    input#mobile.form-control(type='text', name='mobile', placeholder='enter mobile number', title='enter your mobile number if any.')
+                            .form-group
+                                .col-xs-6
+                                    label(for='email')
+                                        h4 Location1
+                                    input#location.form-control(type='email', placeholder='somewhere', title='enter a location')
+                            .form-group
+                                .col-xs-6
+                                    label(for='email')
+                                        h4 Location2
+                                    input#location.form-control(type='email', placeholder='somewhere', title='enter a location')
+                            .form-group
+                                .col-xs-6
+                                    label(for='password')
+                                        h4 Password
+                                    input#password.form-control(type='password', name='password', placeholder='password', title='enter your password.')
+                            .form-group
+                                .col-xs-6
+                                    label(for='password2')
+                                        h4 Verify
+                                    input#password2.form-control(type='password', name='password2', placeholder='password2', title='enter your password2.')
+                            .form-group
+                                .col-xs-12
+                                    br
+                                    button.btn.btn-lg.btn-success(type='submit')
+                                        i.glyphicon.glyphicon-ok-sign
+                                        |  Save
+                                    button.btn.btn-lg(type='reset')
+                                        i.glyphicon.glyphicon-repeat
+                                        |  Reset
+                            hr
+                    // /tab-pane
