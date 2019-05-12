@@ -8,7 +8,7 @@ function flyToCarpark(currentFeature) {
 }
 
 
-//pop a textbox on the map showing details when user cliked the sidebar carparks
+//pop a textbox on the map showing details when user clicked the sidebar carparks
 function createPopUp(currentFeature) {
     var popUps = document.getElementsByClassName('mapboxgl-popup');
     // Check if there is already a popup on the map and if so, remove it
@@ -26,7 +26,7 @@ function buildLocationList(data, place_name) {
     let list_heading = document.getElementById('place_name')
     list_heading.innerHTML = place_name
     for (i = 0; i < data.features.length; i++) {
-        // Create an array of all the stores and their properties
+        // Create an array of all the carparks and their properties
         var currentFeature = data.features[i];
         // Shorten data.feature.properties to just `prop` so we're not
         // writing this long form over and over again.
@@ -37,8 +37,8 @@ function buildLocationList(data, place_name) {
         var listing = listings.appendChild(document.createElement('div'));
         listing.className = 'item';
         listing.id = "listing-" + i;
-        // Create a new link with the class 'title' for each store
-        // and fill it with the store address
+        // Create a new link with the class 'title' for each carpark
+        // and fill it with the carpark address
         var link = listing.appendChild(document.createElement('a'));
         link.href = '#';
         link.className = 'title';
@@ -52,7 +52,7 @@ function buildLocationList(data, place_name) {
             var clickedListing = data.features[this.dataPosition];
             // 1. Fly to the point associated with the clicked link
             flyToCarpark(clickedListing);
-            // 2. Close all other popups and display popup for clicked store
+            // 2. Close all other popups and display popup for clicked carpark
             createPopUp(clickedListing);
             // 3. Highlight listing in sidebar (and remove highlight for all other listings)
             var activeItem = document.getElementsByClassName('active');
