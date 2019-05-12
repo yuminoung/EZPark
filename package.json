@@ -23,7 +23,8 @@
     "express": "^4.16.4",
     "mongoose": "^5.5.1",
     "node-fetch": "^2.3.0",
-    "pug": "^2.0.3"
+    "pug": "^2.0.3",
+    "vue": "^2.6.10"
   },
   "devDependencies": {
     "nodemon": "^1.18.10"

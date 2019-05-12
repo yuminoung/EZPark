@@ -18,6 +18,11 @@
 
         }
     </style>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+    <script type="module">
+        import Vue from 'https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.esm.browser.js'
+    </script>
 </head>
 
 <body>
@@ -35,13 +40,24 @@
         <div class=" columns">
                     <div class="column is-offset-one-quarter is-half has-text-centered">
                         <h1 class="title ">Join Us Now!</h1>
+                        <form action="#" @submit.prevent="submit">
+
                         <br>
 
 
                         <div class="field">
                             <label class="label">Username</label>
                             <div class="control has-icons-left has-icons-right">
-                                <input class="input is-success" type="text" placeholder="Creat your user name" value="">
+                                <input
+                                        class="input"
+                                        type="text"
+                                        placeholder="Create your user name"
+                                        v-model.trim="$v.form.username.$model"
+                                        :class="{
+                                    'is-danger': $v.form.username.$error
+                                }"
+                                >
+
                                 <span class="icon is-small is-left">
                                     <i class="fas fa-user"></i>
                                 </span>
@@ -50,6 +66,7 @@
                                 </span>
                             </div>
                             <p class="help is-success">This username is available</p>
+
                         </div>
 
                         <div class="field">
@@ -121,5 +138,6 @@
 
 
 </body>
+
 
 </html>
