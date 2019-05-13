@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ezpark</title>
 
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <!-- this is a css framework, bulma.io-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
     <!-- monospace font, width of every characters are the same-->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <link rel="stylesheet" href="css/home.css">
@@ -20,72 +23,128 @@
 </head>
 
 <body>
-    <section class="section">
-        <div class="container">
+    <div id="app">
+        <section class="section">
+            <div class="container">
 
+                <div class="columns is-centered">
+                    <div class="column is-half">
+                        <a href="/signin" v-if="!signedin">
+                            <span class="fa-stack is-pulled-right">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-user fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                        <div v-else>
 
-            <div class="columns">
-                <div class="column is-offset-half is-half has-text-centered">
-                    <a href="/login"><span class="fa-stack">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fas fa-user fa-stack-1x fa-inverse"></i>
-                        </span></a>
+                            <a href="/logout">
+                                <span class="fa-stack is-pulled-right">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fas fa-sign-out-alt fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                            <a href="/user">
+                                <span class="fa-stack is-pulled-right">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fas fa-user fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column is-offset-one-quarter is-half has-text-centered">
+                        <img class="logo" src="../img/logo.jpg" alt="tset">
+                    </div>
+
 
                 </div>
-            </div>
-            <div class="columns">
-                <div class="column is-offset-one-quarter is-half has-text-centered">
-                    <img class="logo" src="../img/logo.jpg" alt="tset">
-                </div>
 
+                <div class=" columns">
+                    <div class="column is-offset-one-quarter is-half">
+                        <form action="/search" method="POST">
 
-            </div>
-
-            <div class=" columns">
-                <div class="column is-offset-one-quarter is-half">
-                    <form action="/search" method="POST">
-
-                        <div class="field has-addons">
-                            <div class="control is-expanded">
-                                <input class="input is-medium" name="search" type="text" placeholder="Search carpark">
+                            <div class="field has-addons">
+                                <div class="control is-expanded">
+                                    <input class="input is-medium" name="search" type="text"
+                                        placeholder="Search carpark" autocomplete="off">
+                                </div>
+                                <div class="control">
+                                    <button class="button is-medium">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </div>
                             </div>
-                            <div class="control">
-                                <button class="button is-medium">
-                                    <i class="fas fa-search"></i>
-                                </button>
+
+                        </form>
+                    </div>
+                </div>
+
+                <div class="columns">
+                    <div class="column is-offset-one-quarter is-half">
+
+
+                        <article class="message is-small">
+                            <div class="message-header">
+                                Popular searches
+                                <span class="is-pulled-right">Count</span>
                             </div>
-                        </div>
+                            <div class="message-body">
+                                <div class="columns" v-for="search in popular_searches">
+                                    <div class="column is-11">
+                                        <a v-bind:href="'search/' + search.place_name "> {{ search.place_name }}
+                                        </a>
+                                    </div>
+                                    <div class="column is-1">
+                                        {{ search.search_count }}
+                                    </div>
+                                </div>
 
-                    </form>
+                            </div>
+                        </article>
+
+                    </div>
                 </div>
-            </div>
 
-            <div class="columns">
-                <div class="column is-offset-one-quarter is-half">
-
-
-                    <article class="message is-small">
-                        <div class="message-header">
-                            Popular searches
-                        </div>
-                        <div class="message-body">
-                            Under construction
-                        </div>
-                    </article>
-
+                <div class="columns">
+                    <div class="column is-offset-one-quarter is-half has-text-centered">
+                        &copy; ezpark.com
+                    </div>
                 </div>
+
             </div>
+        </section>
 
-            <div class="columns">
-                <div class="column is-offset-one-quarter is-half has-text-centered">
-                    &copy; ezpark.com, <a href="/todo_list.html">Our todo list</a>
-                </div>
-            </div>
+    </div>
 
-        </div>
-    </section>
+    <script>
+        new Vue({
+            el: '#app',
+            data() {
+                return {
+                    signedin: false,
+                    popular_searches: null
+                }
+            },
+            mounted() {
+                axios
+                    .get('https://ezpark-project.herokuapp.com/api/user')
+                    .then(response => {
+                        if (response.data) {
+                            this.signedin = true
+                        }
+                    })
+                axios
+                    .get('https://ezpark-project.herokuapp.com/api/popular_searches')
+                    .then(response => {
+                        this.popular_searches = response.data
+                        console.log(this.popular_searches)
 
-
+                    })
+            }
+        })
+    </script>
 </body>
 
 </html>

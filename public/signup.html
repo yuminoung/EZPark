@@ -12,103 +12,115 @@
     <!-- monospace font, width of every characters are the same-->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <link rel="stylesheet" href="css/home.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <style>
         .title {
             color: #00255d;
-
         }
     </style>
 </head>
 
 <body>
-    <section class="section">
-        <div class="container">
+    <div id="app">
+        <section class="section">
+            <div class="container">
 
 
-            <div class="columns">
-                <div class="column is-offset-one-quarter is-half has-text-centered">
-                    <img class="logo" src="../img/logo.jpg" alt="tset"">
-            </div>
+                <div class="columns">
+                    <div class="column is-offset-one-quarter is-half has-text-centered">
+                        <img class="logo" src="../img/logo.jpg">
+                    </div>
 
-        </div>
+                </div>
 
-        <div class=" columns">
+                <div class=" columns">
                     <div class="column is-offset-one-quarter is-half has-text-centered">
                         <h1 class="title ">Join Us Now!</h1>
                         <br>
 
-
-                        <div class="field">
-                            <label class="label">Username</label>
-                            <div class="control has-icons-left has-icons-right">
-                                <input class="input is-success" type="text" placeholder="Creat your user name" value="">
-                                <span class="icon is-small is-left">
-                                    <i class="fas fa-user"></i>
-                                </span>
-                                <span class="icon is-small is-right">
-                                    <i class="fas fa-check"></i>
-                                </span>
-                            </div>
-                            <p class="help is-success">This username is available</p>
-                        </div>
-
-                        <div class="field">
-                            <label class="label">Email</label>
-                            <div class="control has-icons-left has-icons-right">
-                                <input class="input is-danger" type="email" placeholder="Email address" value="">
-                                <span class="icon is-small is-left">
-                                    <i class="fas fa-envelope"></i>
-                                </span>
-                                <span class="icon is-small is-right">
-                                    <i class="fas fa-exclamation-triangle"></i>
-                                </span>
-                            </div>
-                            <p class="help is-danger">This email is invalid</p>
-                        </div>
-
-                        <div class="field">
-                            <label class="label">Set Password</label>
+                        <form action="/signup" method="POST">
                             <div class="field">
-                                <p class="control has-icons-left">
-                                    <input class="input" type="password" placeholder="Password">
+                                <label class="label">Name</label>
+                                <div class="control has-icons-left has-icons-right">
+                                    <input class="input" name="name" type="text" placeholder="Creat your user name"
+                                        required>
                                     <span class="icon is-small is-left">
-                                        <i class="fas fa-lock"></i>
+                                        <i class="fas fa-user"></i>
                                     </span>
-                                </p>
+                                    <!-- <span class="icon is-small is-right">
+                                        <i class="fas fa-check"></i>
+                                    </span> -->
+                                </div>
+                                <!-- <p class="help is-success">This username is available</p> -->
                             </div>
-                        </div>
 
-                        <div class="field">
-                            <label class="label">Confirm Password</label>
                             <div class="field">
-                                <p class="control has-icons-left">
-                                    <input class="input" type="password" placeholder="Type the Password Again">
+                                <label class="label">Email</label>
+                                <div class="control has-icons-left">
+                                    <!-- has-icons-right -->
+                                    <input class="input" autocomplete="off" name="email" type="email"
+                                        placeholder="Email address" required>
                                     <span class="icon is-small is-left">
-                                        <i class="fas fa-lock"></i>
+                                        <i class="fas fa-envelope"></i>
                                     </span>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="field">
-                            <div class="control">
-                                <label class="checkbox">
-                                    <input type="checkbox">
-                                    I agree to the <a href=" ">terms and conditions</a>
-                                </label>
-                            </div>
-                        </div>
-
-
-                        <div class="field is-grouped">
-                            <div class="control">
-                                <a class="button is-link">Sign Up!</a>
-                            </div>
-                            <div class="control">
-                                <a class="button is-text" href="/index.html">Cancel</a>
+                                    <!-- <span class="icon is-small is-right">
+                                        <i class="fas fa-exclamation-triangle"></i>
+                                    </span> -->
+                                </div>
+                                <!-- <p class="help is-danger">This email is invalid</p> -->
                             </div>
 
-                        </div>
+                            <div class="field">
+                                <label class="label">Set Password</label>
+                                <div class="field">
+                                    <p class="control has-icons-left">
+                                        <input class="input" name="password" type="password" placeholder="Password"
+                                            required>
+                                        <span class="icon is-small is-left">
+                                            <i class="fas fa-lock"></i>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label class="label">Confirm Password</label>
+                                <div class="field">
+                                    <p class="control has-icons-left">
+                                        <input class="input" type="password" name="password2"
+                                            placeholder="Type the Password Again" required>
+                                        <span class="icon is-small is-left">
+                                            <i class="fas fa-lock"></i>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <div class="control">
+                                    <label class="checkbox">
+                                        <input type="checkbox">
+                                        I agree to the <a href=" ">terms and conditions</a><br>
+                                        sign up error flash message is still under construction however sign up has a
+                                        simple unique
+                                        email and password not match validation
+                                    </label>
+                                </div>
+                            </div>
+
+
+                            <div class="field is-grouped">
+                                <div class="control">
+                                    <input type="submit" class="button is-link" value="Sign Up!">
+                                </div>
+                                <div class="control">
+                                    <a class="button is-text" href="/index.html">Cancel</a>
+                                </div>
+
+                            </div>
+                        </form>
+
 
                     </div>
 
@@ -116,9 +128,13 @@
 
             </div>
 
-
-    </section>
-
+            <div class="columns is-centered" v-if="flash">
+                <div class="column is-half">
+                    {{ flash }}
+                </div>
+            </div>
+        </section>
+    </div>
 
 </body>
 

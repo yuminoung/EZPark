@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ezpark</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- this is a css framework, bulma.io-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <section class="hero is-medium is-primary is-bold">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title">
+                        Hello, {{ name }}
+                    </h1>
+
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <nav class="breadcrumb" aria-label="breadcrumbs">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li class="is-active"><a href="#">User</a></li>
+
+                    </ul>
+                </nav>
+                <h1 class="title">Email</h1>
+                <h2 class="subtitle">
+                    {{ email }}
+                </h2>
+                <hr>
+                <h1 class="title">Favourite Carparks</h1>
+                <h2 class="subtitle">Underconstruction</h2>
+                <hr>
+                <h1 class="title">Recent Searches</h1>
+                <h2 class="subtitle">Underconstruction</h2>
+            </div>
+        </section>
+
+        <section class="section">
+
+        </section>
+    </div>
+    <script>
+        new Vue({
+            el: '#app',
+            data() {
+                return {
+                    name: null,
+                    email: null,
+                    info: null
+                }
+            },
+            mounted() {
+                axios
+                    .get('https://ezpark-project.herokuapp.com/api/user')
+                    .then(response => {
+                        this.name = response.data.name,
+                            this.email = response.data.email
+                    })
+            }
+        })
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ezpark</title>
+
+    <!-- this is a css framework, bulma.io-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <!-- monospace font, width of every characters are the same-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="css/home.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <style>
+        .title {
+            color: #00255d;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <section class="section">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-offset-one-quarter is-half has-text-centered">
+                        <img class="logo" src="img/logo.jpg">
+                    </div>
+                </div>
+                <div class=" columns">
+                    <div class="column is-offset-one-quarter is-half has-text-left">
+                        <h1 class="title has-text-weight-bold">Sign in</h1>
+                        <form action="/signin" method="POST">
+                            <div class="field">
+                                <p class="control has-icons-left">
+                                    <input class="input" name="email" type="email" placeholder="Enter your email">
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+
+                                </p>
+                            </div>
+                            <div class="field">
+                                <p class="control has-icons-left">
+                                    <input class="input" name="password" type="password"
+                                        placeholder="Enter your password">
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-lock"></i>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="field">
+                                <p class="control has-text-centered">
+                                    <input type="submit" class="button is-link" value="Sign In">
+                                </p>
+                                <br>
+                                <p class="control has-text-centered">
+                                    <a class="button is-text">Forget your password?</a>
+                                </p>
+                                <p class="has-text-centered">
+                                    <a class="button is-text" href="/signup">Sign Up</a>
+                                </p>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="columns is-centered" v-if="flash">
+                    <div class="column is-half">
+                        {{ flash }}
+                    </div>
+                </div>
+        </section>
+    </div>
+    <script>
+        new Vue({
+            el: '#app',
+            data() {
+                return {
+                    flash: null
+                }
+            },
+            mounted() {
+                axios
+                    .get('https://ezpark-project.herokuapp.com/flash_error')
+                    .then(response => {
+                        if (response.data) {
+                            this.flash = response.data[0]
+                        }
+                    })
+            }
+        })
+    </script>
+</body>
+
+</html>

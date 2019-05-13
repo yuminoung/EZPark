@@ -115,6 +115,16 @@ var store = function (req, res) {
 
 }
 
+
+var popular_searches = function (req, res) {
+    Search
+        .find()
+        .sort({ search_count: -1 })
+        .limit(10)
+        .then(result => res.json(result))
+        .catch(error => res.redirect('/404'))
+}
+
 // helper function: convert degree to radian
 function degreesToRadians(degrees) {
     return degrees * Math.PI / 180;
@@ -143,3 +153,4 @@ function distanceInMeters(lat1, lon1, lat2, lon2) {
 module.exports.store = store
 module.exports.show = show
 module.exports.noresult = noresult
+module.exports.popular_searches = popular_searches
