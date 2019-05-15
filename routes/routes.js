@@ -34,6 +34,9 @@ router.post('/signup', user.signup)
 // show user profile page
 router.get('/user', user.index)
 
+// get user api
+router.get('/api/user', user.api_user)
+
 // logout user
 router.get('/logout', user.logout)
 
