@@ -30,7 +30,7 @@ app.use(flash());
 app.use(passport.initialize());
 app.use(passport.session());
 
-
+// Use passport local strategy, email and password to authenticate user
 var LocalStrategy = require('passport-local').Strategy;
 passport.use(new LocalStrategy(
     {

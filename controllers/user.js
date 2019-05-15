@@ -14,7 +14,7 @@ var signup_index = function (req, res) {
     }
 }
 
-// sign up new user
+// sign up new user, simple unique email and password not match validation
 var signup = function (req, res) {
     var password = req.body.password;
     var password2 = req.body.password2;
@@ -72,6 +72,7 @@ var signin = function (req, res) {
     res.redirect('/')
 }
 
+// json api of flash error
 var flash_error = function (req, res) {
     res.json(req.flash('error'))
 }
@@ -90,6 +91,8 @@ var api_user = function (req, res) {
     res.json(req.user)
 }
 
+
+// log user out
 var logout = function (req, res) {
     req.logout();
     res.redirect('/')

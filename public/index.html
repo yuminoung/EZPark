@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ezpark</title>
-
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js"></script>
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <!-- this is a css framework, bulma.io-->
@@ -57,12 +58,57 @@
                     <div class="column is-offset-one-quarter is-half has-text-centered">
                         <img class="logo" src="../img/logo.jpg" alt="tset">
                     </div>
-
-
                 </div>
 
-                <div class=" columns">
-                    <div class="column is-offset-one-quarter is-half">
+                <div class="columns">
+                    <div class="column is-1 is-offset-one-quarter">
+                        <div class="dropdown  is-hoverable">
+                            <div class="dropdown-trigger">
+                                <button class="button is-medium" aria-haspopup="true" aria-controls="dropdown-menu3">
+                                    <span class="icon">
+                                        <i class="fas fa-bars"></i>
+                                    </span>
+                                    <span class="icon is-small">
+                                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+                                <div class="dropdown-content">
+                                    <aside class="menu">
+                                        <p class="menu-label">
+                                            Nearby (Under construction)
+                                        </p>
+                                        <ul class="menu-list">
+                                            <li><a>200 meters</a></li>
+                                            <li><a>500 meters</a></li>
+                                        </ul>
+                                        <p class="menu-label">
+                                            Business District
+                                        </p>
+                                        <ul class="menu-list">
+                                            <li><a>CBD/China Town</a></li>
+                                            <li><a>Carlton</a></li>
+                                            <li><a>Southbank</a></li>
+                                            <li><a>Chadstone</a></li>
+                                            <li><a>Box Hill</a></li>
+                                            <li><a>Clayton</a></li>
+                                            <li><a>Glen Waverly</a></li>
+                                        </ul>
+                                        <p class="menu-label">
+                                            Airport/Transport Station
+                                        </p>
+                                        <ul class="menu-list">
+                                            <li><a>Melbourne Airport</a></li>
+                                            <li><a>Southern Cross Station</a></li>
+                                            <li><a>Essendon Fields Airport</a></li>
+                                        </ul>
+                                    </aside>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-5">
                         <form action="/search" method="POST">
 
                             <div class="field has-addons">
@@ -106,15 +152,22 @@
 
                     </div>
                 </div>
-
-                <div class="columns">
-                    <div class="column is-offset-one-quarter is-half has-text-centered">
-                        &copy; ezpark.com
+                <div class="columns is-centered">
+                    <div class="column is-half">
+                        <div id="map" style="height:500px;">
+                        </div>
                     </div>
                 </div>
-
             </div>
-        </section>
+            <div class=" columns">
+                <div class="column is-offset-one-quarter is-half has-text-centered">
+                    &copy; ezpark.com
+                </div>
+            </div>
+
+
+    </div>
+    </section>
 
     </div>
 
@@ -144,6 +197,20 @@
                     })
             }
         })
+
+        mapboxgl.accessToken = 'pk.eyJ1IjoieXVtaW5vdW5nIiwiYSI6ImNqdXczOWVzazA4OXM0M2xhMHJ3amhyOWUifQ.EXLrlr49xL8WfBh5PAVWMw';
+
+        // add the map to page
+        var map = new mapboxgl.Map({
+            // container id specified in the HTML
+            container: 'map',
+            // map style provided by mapbox
+            style: 'mapbox://styles/mapbox/light-v10',
+            // initial position in [lon, lat] set Melbourne CBD
+            center: [144.953, -37.817],
+            // initial zoom
+            zoom: 14
+        });
     </script>
 </body>
 

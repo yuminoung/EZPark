@@ -86,7 +86,7 @@
             },
             mounted() {
                 axios
-                    .get('https://ezpark-project.herokuapp.com/flash_error')
+                    .get('https://ezpark-project.herokuapp.com/api/flash_error')
                     .then(response => {
                         if (response.data) {
                             this.flash = response.data[0]
