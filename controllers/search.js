@@ -21,14 +21,12 @@ var show = function (req, res) {
     fetch(map_api)
         .then(res => res.json())
         .then(result => {
-
             var coordinates = result['features'][0]['geometry']['coordinates']
             var place_name = result['features'][0]['place_name']
             fetch(carpark_api)
                 .then(res => res.json())
                 .then(json => {
                     var carparks = []
-
                     for (var i = 0; i < json.length; i++) {
 
                         var lon = json[i]['location']['coordinates'][0]
@@ -43,8 +41,9 @@ var show = function (req, res) {
                                 "id": 'Carpark ' + json[i]["bay_id"]
                             }
                         }
-
-                        carparks.push(carpark)
+                        if (json[i]['status'] != 'Present') {
+                            carparks.push(carpark)
+                        }
                     }
 
                     carparks.sort((a, b) => parseFloat(a.price) - parseFloat(b.price));
@@ -60,7 +59,9 @@ var show = function (req, res) {
                     }
 
                     res.render('search/result', {
-                        carpark_collection: JSON.stringify(carpark_collection), place_name: JSON.stringify(place_name)
+                        carpark_collection: JSON.stringify(carpark_collection),
+                        place_name: JSON.stringify(place_name),
+                        coordinates: JSON.stringify(coordinates)
                     })
                 })
                 .catch(err => console.log(err))
