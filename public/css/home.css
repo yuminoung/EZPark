@@ -7,7 +7,7 @@ body{
     height: 100%;
 
     font-family: 'Roboto Mono', monospace;
-    background-image: url("http://localhost:3000/img/background.png");
+    background-image: url("https://ezpark-project.herokuapp.com/img/background.png");
 }
 
 /*#00255d*/
