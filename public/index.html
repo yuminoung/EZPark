@@ -5,8 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ezpark</title>
-    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js"></script>
-    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css" rel="stylesheet">
+
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <!-- this is a css framework, bulma.io-->
@@ -193,19 +192,7 @@
             }
         })
 
-        mapboxgl.accessToken = 'pk.eyJ1IjoieXVtaW5vdW5nIiwiYSI6ImNqdXczOWVzazA4OXM0M2xhMHJ3amhyOWUifQ.EXLrlr49xL8WfBh5PAVWMw';
 
-        // add the map to page
-        var map = new mapboxgl.Map({
-            // container id specified in the HTML
-            container: 'map',
-            // map style provided by mapbox
-            style: 'mapbox://styles/mapbox/light-v10',
-            // initial position in [lon, lat] set Melbourne CBD
-            center: [144.953, -37.817],
-            // initial zoom
-            zoom: 14
-        });
     </script>
 </body>
 

@@ -30,7 +30,7 @@
                         <img class="logo" src="img/logo.jpg">
                     </div>
                 </div>
-                <div class=" columns">
+                <div class="columns">
                     <div class="column is-offset-one-quarter is-half has-text-left">
                         <h1 class="title has-text-weight-bold">Sign in</h1>
                         <form action="/signin" method="POST">
@@ -87,9 +87,10 @@
             },
             mounted() {
                 axios
-                    .get('https://ezpark-project.herokuapp.com/api/flash_error')
+                    .get('https://ezpark-project.herokuapp.com/flash_error')
                     .then(response => {
                         if (response.data) {
+                            console.log(response.data)
                             this.flash = response.data[0]
                         }
                     })
