@@ -22,6 +22,36 @@ Ziyi Li <br>
 ### Project Description:
 This is a web application to help drivers to find available street parking slot in Melbourne CBD.
 
+### Key Functions:
+1. Search your target location or address and get the car park places near it.
+2. Register yourself with email address.
+3. Login for more personalized functions. 
+
+### Code Features:
+- Views:
+  - 404.pug
+  - carpark.pug
+  - favorites.pug
+  - index.pug
+  - login.pug
+  - signup.pug
+  - todo_list.pug
+  - userprofile.pug
+- Routes:
+  - routes.js
+- Controllers:
+  - carpark.js
+  - favorites.js
+  - home.js
+  - login.js
+  - search.js
+  - signup.js
+  - userprofile.js
+- Models:
+  - db.js
+  - favourites.js
+  - search.js
+
 ### Initial Setup:
 to setup the project in your local machine for the first time.
 ```
