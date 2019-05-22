@@ -66,17 +66,17 @@ npm run dev
 3. Popular search count will show in the home page, this show the highest search location by all user.
 
 ### Routes
-GET /signin - show signin page, will direct user to home if signed in
-GET /signup - show signup page, will direct user to home if signed in
-GET /user - show userprofile page, will direct user to home page if not signed in
-GET / - show home page and show top 10 popular search locations
-GET /404 - show 404 if page not exists
-GET /signout - log user out
+1. GET /signin - show signin page, will direct user to home if signed in
+2. GET /signup - show signup page, will direct user to home if signed in
+3. GET /user - show userprofile page, will direct user to home page if not signed in
+4. GET / - show home page and show top 10 popular search locations
+5. GET /404 - show 404 if page not exists
+6. GET /signout - log user out
 
-POST /search - save search to mongodb increase search count, use for popular search
-POST /signin - post user credentials to server and validate, sign user in if success
-POST /signup - post user sign up details to server and save it in mongodb (unique email and password match valiation)
-GET /search/result - show a map of user searched location
+7. POST /search - save search to mongodb increase search count, use for popular search
+8. POST /signin - post user credentials to server and validate, sign user in if success
+9. POST /signup - post user sign up details to server and save it in mongodb (unique email and password match valiation)
+10. GET /search/result - show a map of user searched location
 
 
 
