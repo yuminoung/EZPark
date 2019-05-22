@@ -60,5 +60,24 @@ npm run dev
 
 ```
 
+### Core functionality
+1. User can search a location, a map will show up to show a list of nearest carparks.
+2. User can sign up or register, this will save their recent search. (this is still underconstruction will complete by final deliverable)
+3. Popular search count will show in the home page, this show the highest search location by all user.
+
+### Routes
+GET /signin - show signin page, will direct user to home if signed in
+GET /signup - show signup page, will direct user to home if signed in
+GET /user - show userprofile page, will direct user to home page if not signed in
+GET / - show home page and show top 10 popular search locations
+GET /404 - show 404 if page not exists
+GET /signout - log user out
+
+POST /search - save search to mongodb increase search count, use for popular search
+POST /signin - post user credentials to server and validate, sign user in if success
+POST /signup - post user sign up details to server and save it in mongodb (unique email and password match valiation)
+GET /search/result - show a map of user searched location
+
+
 
 ### Enjoy coding :)
