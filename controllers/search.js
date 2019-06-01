@@ -28,7 +28,6 @@ var show = function (req, res) {
                 .then(json => {
                     var carparks = []
                     for (var i = 0; i < json.length; i++) {
-
                         var lon = json[i]['location']['coordinates'][0]
                         var lat = json[i]['location']['coordinates'][1]
                         var estimated_distance = distanceInMeters(lat, lon, coordinates[1], coordinates[0])
@@ -46,7 +45,6 @@ var show = function (req, res) {
                         }
                     }
 
-                    carparks.sort((a, b) => parseFloat(a.price) - parseFloat(b.price));
 
                     carparks.sort(function (a, b) {
                         return a.properties.distance - b.properties.distance
