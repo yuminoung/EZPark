@@ -3,13 +3,6 @@ html{
     height: 100%;
 }
 
-body{
-    height: 100%;
-
-    font-family: 'Roboto Mono', monospace;
-    background-image: url("https://ezpark-project.herokuapp.com/img/background.png");
-    background-attachment: scroll;
-}
 
 /*#00255d*/
 

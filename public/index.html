@@ -19,6 +19,12 @@
         .fa-circle {
             color: #00255d;
         }
+
+        body {
+            font-family: 'Roboto Mono', monospace;
+            background-image: url("https://ezpark-project.herokuapp.com/img/background.png");
+            background-attachment: scroll;
+        }
     </style>
 </head>
 
@@ -70,8 +76,8 @@
                                         <select name="filter" v-model="filter">
                                             <option value="3000">
                                                 &lt;3km </option>
-                                            <option value="1000" class="is-small">
-                                                &lt;1km </option>
+                                            <option value="1500" class="is-small">
+                                                &lt;1.5km </option>
                                             <option value="500" class="is-small">
                                                 &lt;500m</option>
 
@@ -118,13 +124,13 @@
                 <div class="columns">
                     <div class="column is-offset-one-quarter is-half">
 
-
                         <article class="message is-small">
                             <div class="message-header">
                                 Popular searches
                                 <span class="is-pulled-right">Count</span>
                             </div>
                             <div class="message-body">
+
                                 <div class="columns" v-for="search in popular_searches">
                                     <div class="column is-11">
                                         <a v-bind:href="'search/' + search.place_name "> {{ search.place_name }}

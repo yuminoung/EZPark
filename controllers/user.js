@@ -24,7 +24,8 @@ var signup = function (req, res) {
     //validate email, if email not exists create user else send error
     User.findOne({ email: email }, function (err, result) {
         if (result) {
-            res.status(500).send('email already exists. Please try another email')
+            req.flash('error', 'Email already exists. Please try another one.')
+            res.redirect('/signup')
         } else {
 
             // validate password and password2 are typed correctly
@@ -42,12 +43,14 @@ var signup = function (req, res) {
                         newUser.save(function (err) {
                             if (err) { res.send('error') }
                         })
-                        res.send('You are now registered, please continue to login').end()
+                        res.sendFile(public_path + '/user/register_success.html')
                     })
                 })
 
             } else {
-                res.status(500).send("Password not match").end()
+                req.flash('error', 'Password not match.')
+                res.redirect('/signup')
+                // res.status(500).send("Password not match").end()
             }
 
         }

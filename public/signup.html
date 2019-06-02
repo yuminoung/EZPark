@@ -97,17 +97,6 @@
                                 </div>
                             </div>
 
-                            <div class="field">
-                                <div class="control">
-                                    <label class="checkbox">
-                                        <input type="checkbox">
-                                        I agree to the <a href=" ">terms and conditions</a><br>
-                                        sign up error flash message is still under construction however sign up has a
-                                        simple unique
-                                        email and password not match validation
-                                    </label>
-                                </div>
-                            </div>
 
 
                             <div class="field is-grouped">
@@ -127,7 +116,7 @@
                 </div>
 
             </div>
-
+            {{ flash }}
             <!-- <div class="columns is-centered" v-if="flash">
                 <div class="column is-half">
                     {{ flash }}
@@ -136,6 +125,27 @@
         </section>
     </div>
 
+
+    <script>
+        new Vue({
+            el: '#app',
+            data() {
+                return {
+                    flash: null
+                }
+            },
+            mounted() {
+                axios
+                    .get('https://ezpark-project.herokuapp.com/flash_error')
+                    .then(response => {
+                        if (response.data) {
+                            console.log(response.data)
+                            this.flash = response.data[0]
+                        }
+                    })
+            }
+        })
+    </script>
 </body>
 
 </html>
