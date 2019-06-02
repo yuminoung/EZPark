@@ -151,6 +151,7 @@
             <div class=" columns">
                 <div class="column is-offset-one-quarter is-half has-text-centered">
                     &copy; ezpark.com
+                    {{ recent_searches }}
                 </div>
             </div>
 
@@ -171,6 +172,7 @@
                     api_data: null,
                     no_result: false,
                     filter: 500,
+                    recent_searches: null,
                 }
             },
             mounted() {
@@ -191,6 +193,11 @@
                     })
                     .catch(err => console.log(err));
 
+                axios
+                    .get('https://ezpark-project.herokuapp.com/api/recent_searches')
+                    .then(response => {
+                        this.recent_searches = response.data
+                    }).catch(err => console.log(err));
             },
             methods: {
                 getMapBoxSearchQuery: function () {
