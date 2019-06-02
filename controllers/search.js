@@ -148,7 +148,7 @@ var store = function (req, res) {
                     }
                 })
             if (req.user) {
-                console.log(req.user);
+                res.send(req.user);
             }
             res.redirect('/search/' + req.body.search + '?filter=' + req.body.filter)
 
