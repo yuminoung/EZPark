@@ -46,7 +46,7 @@ function buildLocationList(data, place_name) {
         link.innerHTML = prop.id;
         var details = listing.appendChild(document.createElement('div'));
         details.innerHTML = prop.status;
-        details.innerHTML += '<br>Estimated ' + prop.distance + ' meters';
+        details.innerHTML += '<br>' + prop.distance;
         link.addEventListener('click', function (e) {
             // Update the currentFeature to the carpark associated with the clicked link
             var clickedListing = data.features[this.dataPosition];

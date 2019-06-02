@@ -59,61 +59,28 @@
                     </div>
                 </div>
 
-                <div class="columns">
-                    <div class="column is-1 is-offset-one-quarter">
-                        <div class="dropdown  is-hoverable">
-                            <div class="dropdown-trigger">
-                                <button class="button is-medium" aria-haspopup="true" aria-controls="dropdown-menu3">
-                                    <span class="icon">
-                                        <i class="fas fa-bars"></i>
-                                    </span>
-                                    <span class="icon is-small">
-                                        <i class="fas fa-angle-down" aria-hidden="true"></i>
-                                    </span>
-                                </button>
-                            </div>
-                            <div class="dropdown-menu" id="dropdown-menu3" role="menu">
-                                <div class="dropdown-content">
-                                    <aside class="menu">
-                                        <p class="menu-label">
-                                            Nearby (Under construction)
-                                        </p>
-                                        <ul class="menu-list">
-                                            <li><a>200 meters</a></li>
-                                            <li><a>500 meters</a></li>
-                                        </ul>
-                                        <p class="menu-label">
-                                            Business District
-                                        </p>
-                                        <ul class="menu-list">
-                                            <li><a>CBD/China Town</a></li>
-                                            <li><a>Carlton</a></li>
-                                            <li><a>Southbank</a></li>
-                                            <li><a>Chadstone</a></li>
-                                            <li><a>Box Hill</a></li>
-                                            <li><a>Clayton</a></li>
-                                            <li><a>Glen Waverly</a></li>
-                                        </ul>
-                                        <p class="menu-label">
-                                            Airport/Transport Station
-                                        </p>
-                                        <ul class="menu-list">
-                                            <li><a>Melbourne Airport</a></li>
-                                            <li><a>Southern Cross Station</a></li>
-                                            <li><a>Essendon Fields Airport</a></li>
-                                        </ul>
-                                    </aside>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column is-5">
+                <div class="columns is-centered">
+
+                    <div class="column is-half">
                         <form action="/search" method="POST">
 
                             <div class="field has-addons">
+                                <p class="control">
+                                    <span class="select is-medium">
+                                        <select name="filter" v-model="filter">
+                                            <option value="500" class="is-small">
+                                                &lt;500m</option>
+                                            <option value="1000" class="is-small">
+                                                &lt;1km </option>
+                                            <option value="3000">
+                                                &lt;3km </option>
+                                        </select>
+                                    </span>
+                                </p>
                                 <div class="control is-expanded">
                                     <input class="input is-medium" name="search" type="text"
-                                        placeholder="Search carpark" autocomplete="off">
+                                        placeholder="Search carpark" autocomplete="off" v-model="search_query"
+                                        @input="getMapBoxSearchQuery">
                                 </div>
                                 <div class="control">
                                     <button class="button is-medium">
@@ -123,6 +90,26 @@
                             </div>
 
                         </form>
+                    </div>
+                </div>
+                <div class="columns" v-if="search_query">
+                    <div class="column is-offset-one-quarter is-half">
+                        <article class="message is-small">
+                            <div class="message-header">Search suggestions</div>
+                            <div v-if="no_result" class="message-body">No result</div>
+                            <div v-else class="message-body">
+                                <div class="columns is-multiline">
+                                    <div v-for="data in api_data" v-bind:key="data.id" class="column is-full"
+                                        style="padding:5px;">
+                                        <a
+                                            :href="`/search/${ data.place_name }?filter=${filter}`">{{ data.place_name }}</a>
+                                        <!-- <router-link
+                                            :to="{name:'result',params: {result_coordinates: data.geometry.coordinates, result_place_name: data.place_name}}">
+                                            {{ data.place_name }}Foo</router-link> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
                     </div>
                 </div>
 
@@ -171,7 +158,11 @@
             data() {
                 return {
                     signedin: false,
-                    popular_searches: null
+                    popular_searches: null,
+                    search_query: null,
+                    api_data: null,
+                    no_result: false,
+                    filter: 500,
                 }
             },
             mounted() {
@@ -182,6 +173,7 @@
                             this.signedin = true
                         }
                     })
+                    .catch(err => console.log(err));
                 axios
                     .get('https://ezpark-project.herokuapp.com/api/popular_searches')
                     .then(response => {
@@ -189,6 +181,29 @@
                         console.log(this.popular_searches)
 
                     })
+                    .catch(err => console.log(err));
+
+            },
+            methods: {
+                getMapBoxSearchQuery: function () {
+                    if (!this.search_query == "") {
+                        var search_api = `https://api.mapbox.com/geocoding/v5/mapbox.places/${
+                            this.search_query
+                            }.json?access_token=pk.eyJ1IjoieXVtaW5vdW5nIiwiYSI6ImNqdXczOWVzazA4OXM0M2xhMHJ3amhyOWUifQ.EXLrlr49xL8WfBh5PAVWMw&proximity=144.953,-37.817&limit=5&country=AU`;
+                        axios
+                            .get(search_api)
+                            .then(response => {
+                                if (response.data.features.length) {
+                                    this.no_result = false;
+                                    this.api_data = response.data.features;
+                                } else {
+                                    this.api_data = [];
+                                    this.no_result = true;
+                                }
+                            })
+                            .catch(err => console.log(err));
+                    }
+                },
             }
         })
 

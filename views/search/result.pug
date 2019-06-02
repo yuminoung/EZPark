@@ -21,7 +21,7 @@ html
             // variables rendered from search.js using pug
             // carpark colletion contains lat, lon, id and status of every carpark
             var carpark_collection = !{ carpark_collection }
-
+            var search_geojson = !{ search_geojson }
             // the address of highest relevance result from user search input
             var place_name = !{ place_name }
 
@@ -39,6 +39,7 @@ html
             // initial zoom
             zoom: 15
             });
+            map.addControl(new mapboxgl.NavigationControl());
 
             map.on('load', function (e) {
             // Add the data to your map as a layer
@@ -56,6 +57,29 @@ html
             'icon-image': 'car-15',
             'icon-allow-overlap': true,
             }
+            });
+
+            map.addLayer({
+            id: "search_location",
+            type: "circle",
+            source: {
+            type: "geojson",
+            data: search_geojson
+            },
+
+            paint: {
+            'circle-radius': {
+            property: 'bike_count',
+            type: 'interval',
+            stops: [
+            [0, 5],
+            [1, 5.5],
+            [3, 6]
+            ]
+            },
+            'circle-stroke-width': 20,
+            'circle-stroke-opacity': 0.20
+            },
             });
             });
 

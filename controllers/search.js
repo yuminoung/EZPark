@@ -31,24 +31,65 @@ var show = function (req, res) {
                         var lon = json[i]['location']['coordinates'][0]
                         var lat = json[i]['location']['coordinates'][1]
                         var estimated_distance = distanceInMeters(lat, lon, coordinates[1], coordinates[0])
+                        var distance_string = "Estimated distance " + estimated_distance + " meters"
                         var carpark = {
                             "type": "Feature",
                             "geometry": json[i]["location"],
                             "properties": {
                                 "status": json[i]["status"],
-                                "distance": estimated_distance,
+                                "distance": distance_string,
+                                "idistance": estimated_distance,
                                 "id": 'Carpark ' + json[i]["bay_id"]
                             }
                         }
                         if (json[i]['status'] != 'Present') {
-                            carparks.push(carpark)
+                            if (req.query.filter <= 500) {
+                                if (estimated_distance <= 500) {
+                                    carparks.push(carpark)
+                                }
+                            } else if (req.query.filter <= 1000) {
+                                if (estimated_distance <= 1000) {
+                                    carparks.push(carpark)
+                                }
+                            } else if (req.query.filter <= 3000) {
+                                if (estimated_distance <= 3000) {
+                                    carparks.push(carpark)
+                                }
+                            } else {
+                                carparks.push(carpark)
+                            }
                         }
                     }
+                    if (!carparks.length) {
+                        var carpark = {
+                            "type": "Feature",
+                            "properties": {
+                                "status": "No carpark is available",
+                                "distance": "Please try to search a larger area",
+                                "id": `Filter ${req.query.filter} has no result`
+                            }
+                        }
+                        carparks.push(carpark);
+                    } else {
 
+                        carparks.sort(function (a, b) {
+                            return a.properties.idistance - b.properties.idistance
+                        });
+                    }
 
-                    carparks.sort(function (a, b) {
-                        return a.properties.distance - b.properties.distance
-                    });
+                    var search_geojson = {
+                        type: "FeatureCollection",
+                        features: [
+                            {
+                                type: "Feature",
+                                geometry: {
+                                    type: "Point",
+                                    coordinates: coordinates
+                                },
+                            }
+                        ]
+                    }
+
 
 
                     var carpark_collection = {
@@ -59,7 +100,8 @@ var show = function (req, res) {
                     res.render('search/result', {
                         carpark_collection: JSON.stringify(carpark_collection),
                         place_name: JSON.stringify(place_name),
-                        coordinates: JSON.stringify(coordinates)
+                        coordinates: JSON.stringify(coordinates),
+                        search_geojson: JSON.stringify(search_geojson)
                     })
                 })
                 .catch(err => console.log(err))
@@ -104,7 +146,7 @@ var store = function (req, res) {
                         })
                     }
                 })
-            res.redirect('/search/' + req.body.search)
+            res.redirect('/search/' + req.body.search + '?filter=' + req.body.filter)
 
         })
         .catch(err => {

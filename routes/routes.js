@@ -5,7 +5,6 @@ var home = require('../controllers/home.js')
 var search = require('../controllers/search.js')
 var carpark = require('../controllers/carpark.js')
 var error = require('../controllers/error.js')
-var favourites = require("../controllers/favourites.js")
 const user = require('../controllers/user')
 const passport = require('passport')
 
@@ -49,7 +48,6 @@ router.get('/api/popular_searches', search.popular_searches)
 router.get('/carpark', carpark.index)
 router.get('/carpark/:id', carpark.show)
 
-router.get('/favourites', favourites.index)
 
 //handle 404 page not found
 router.get('*', error.index);
