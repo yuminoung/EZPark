@@ -166,6 +166,20 @@ var store = function (req, res) {
 
 }
 
+var recent_searches = (req, res) => {
+    if (req.user) {
+        RecentSearch
+            .find({ id: req.user._id })
+            .sort({ created_at: -1 })
+            .limit(10)
+            .then(result => res.json(result))
+            .catch(error => console.log(error))
+    } else {
+        res.send('user not logged in')
+    }
+
+}
+
 
 var popular_searches = function (req, res) {
     Search
@@ -173,7 +187,7 @@ var popular_searches = function (req, res) {
         .sort({ search_count: -1 })
         .limit(10)
         .then(result => res.json(result))
-        .catch(error => res.redirect('/404'))
+        .catch(error => console.log(error))
 }
 
 // helper function: convert degree to radian
@@ -201,6 +215,8 @@ function distanceInMeters(lat1, lon1, lat2, lon2) {
     return Math.round(earthRadiusKm * c * 1000);
 }
 
+
+module.exports.recent_searches = recent_searches
 module.exports.store = store
 module.exports.show = show
 module.exports.noresult = noresult

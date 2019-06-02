@@ -44,6 +44,7 @@ router.get('/search/:query/no_result', search.noresult)
 router.get('/search/:query', search.show)
 router.post('/search', search.store)
 router.get('/api/popular_searches', search.popular_searches)
+router.get('/api/recent_searches', search.recent_searches)
 //carpark
 router.get('/carpark', carpark.index)
 router.get('/carpark/:id', carpark.show)
