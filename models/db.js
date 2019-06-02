@@ -20,4 +20,4 @@ mongoose.connect(dbURI, options).then(
 
 require('./search.js')
 require('./user.js')
-require('./favourites.js')
+require('./recent_search.js')

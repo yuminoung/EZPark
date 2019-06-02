@@ -1,6 +1,7 @@
 // Search Controller
 const mongoose = require('mongoose')
 const Search = mongoose.model('Search')
+const RecentSearch = mongoose.model('RecentSearch')
 const fetch = require('node-fetch')
 
 const carpark_api = 'https://data.melbourne.vic.gov.au/resource/dtpv-d4pf.json'
@@ -146,6 +147,9 @@ var store = function (req, res) {
                         })
                     }
                 })
+            if (req.user) {
+                console.log(req.user);
+            }
             res.redirect('/search/' + req.body.search + '?filter=' + req.body.filter)
 
         })
