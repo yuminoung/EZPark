@@ -121,6 +121,28 @@
                     </div>
                 </div>
 
+                <div class="columns" v-if="recent_searches">
+                    <div class="column is-offset-one-quarter is-half">
+
+                        <article class="message is-small">
+                            <div class="message-header">
+                                Your Recent searches
+                            </div>
+                            <div class="message-body">
+                                <div class="columns is-multiline">
+                                    <div v-for="data in recent_searches" v-bind:key="data.id" class="column is-full"
+                                        style="padding:5px;">
+                                        <a :href="`/search/${ data.query }`">{{ data.query }}</a>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
                 <div class="columns">
                     <div class="column is-offset-one-quarter is-half">
 
@@ -151,7 +173,6 @@
             <div class=" columns">
                 <div class="column is-offset-one-quarter is-half has-text-centered">
                     &copy; ezpark.com
-                    {{ recent_searches }}
                 </div>
             </div>
 
