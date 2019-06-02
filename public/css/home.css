@@ -8,7 +8,7 @@ body{
 
     font-family: 'Roboto Mono', monospace;
     background-image: url("https://ezpark-project.herokuapp.com/img/background.png");
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 /*#00255d*/
