@@ -148,7 +148,13 @@ var store = function (req, res) {
                     }
                 })
             if (req.user) {
-                res.send(req.user._id);
+                var recentSearch = new RecentSearch({
+                    query: place_name,
+                    id: req.user._id
+                });
+                recentSearch.save(function (err) {
+                    if (err) { res.send('error') }
+                })
             }
             res.redirect('/search/' + req.body.search + '?filter=' + req.body.filter)
 
