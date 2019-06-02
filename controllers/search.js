@@ -175,7 +175,8 @@ var recent_searches = (req, res) => {
             .then(result => res.json(result))
             .catch(error => console.log(error))
     } else {
-        res.send('user not logged in')
+        // unauthorized response
+        res.status(401).send('user not logged in')
     }
 
 }
